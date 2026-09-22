@@ -1,0 +1,6399 @@
+{
+  "segments": [
+    {
+      "id": "verbal",
+      "name": "Tes Verbal",
+      "icon": "📝",
+      "description": "Sinonim, Antonim, Pengelompokan Kata & Analogi Hubungan",
+      "badge": "Paragon MT & Beasiswa",
+      "order_num": 1,
+      "question_count": 50,
+      "subsegments": [
+        "Analogi",
+        "Analogi & Padanan Hubungan",
+        "Antonim",
+        "Antonim (Lawan Kata)",
+        "Pengelompokan Kata",
+        "Sinonim",
+        "Sinonim (Persamaan Kata)",
+        "Sinonim Uji Coba"
+      ]
+    },
+    {
+      "id": "numerik",
+      "name": "Tes Numerik & Deret",
+      "icon": "🔢",
+      "description": "Aritmatika Dasar, Deret Angka, Seri Huruf & Angka Cerita",
+      "badge": "Logika Kuantitatif",
+      "order_num": 2,
+      "question_count": 32,
+      "subsegments": [
+        "Angka Cerita",
+        "Angka pada Cerita",
+        "Antonim",
+        "Aritmatika Dasar",
+        "Deret Angka",
+        "Logika Angka & Aljabar"
+      ]
+    },
+    {
+      "id": "logika",
+      "name": "Tes Logika & Silogisme",
+      "icon": "🧠",
+      "description": "Silogisme, Logika Cerita, Logika Relasi & Diagram",
+      "badge": "Penalaran Kritis",
+      "order_num": 3,
+      "question_count": 27,
+      "subsegments": [
+        "Antonim",
+        "Logika Umum",
+        "Penalaran Analitis",
+        "Penalaran Relasi Komparatif",
+        "Silogisme",
+        "Silogisme & Logika Cerita"
+      ]
+    },
+    {
+      "id": "urutan",
+      "name": "Tes Urutan Angka & Huruf",
+      "icon": "📐",
+      "description": "Urutan Komparasi Nilai, Abjad & Pola Teratur",
+      "badge": "Konsentrasi & Akurasi",
+      "order_num": 4,
+      "question_count": 34,
+      "subsegments": [
+        "Seri & Pola Huruf",
+        "Seri Huruf",
+        "Urutan & Deret Angka",
+        "Urutan Angka",
+        "Urutan Huruf"
+      ]
+    },
+    {
+      "id": "tpa_simulasi",
+      "name": "Simulasi TPA Paragon",
+      "icon": "🎯",
+      "description": "Paket Komprehensif Tes Potensi Akademik Paragon Scholarship",
+      "badge": "Simulasi Penuh",
+      "order_num": 5,
+      "question_count": 44,
+      "subsegments": [
+        "Analogi & Padanan Hubungan Kata",
+        "Deret Angka & Aljabar Aritmatika",
+        "Logika Cerita & Pemecahan Masalah",
+        "Silogisme & Logika Analitik"
+      ]
+    },
+    {
+      "id": "kepribadian",
+      "name": "Tes Nilai & Budaya Paragon",
+      "icon": "🤝",
+      "description": "Keteladanan, Kerendahan Hati, Ketangguhan & Situational Judgment",
+      "badge": "Core Values Paragon",
+      "order_num": 6,
+      "question_count": 31,
+      "subsegments": [
+        "Core Values Paragon",
+        "Sikap & Nilai Diri",
+        "Tes Kepribadian & Preferensi Kerja (EPPS)"
+      ]
+    }
+  ],
+  "total_questions": 218,
+  "questions": [
+    {
+      "id": "f2_q_41",
+      "segment_id": "numerik",
+      "subsegment": "Antonim",
+      "question": "TesNumerik Mengukur kemampuan menghitung, memahami,danmenafsirkandataangka. a.Tesangkapadacerita Peserta diminta menjawab masalah numerik yangtertuangdalamsebuahcerita.Misalnya, cerita tentang pembelian barang dengan jumlah tertentu, kemudian peserta harus menghitungtotalbiayaatausisauang. 41.Harga daging bebek hidup per ons adalah Rp 1.200,00, sementara harga daging bebek goreng per ons adalah Rp 2.500,00. Seekor bebek akan mengalami penyusutan berat 35% setelah digoreng. Selain menjual dalam keadaan digoreng, penjual juga menjual bebek hidup. Sebelumnya ia telah membeli bebek- bebek dengan harga Rp 655.200,00. Ia pun menjual keseluruhan bebek-bebek itu dengan harga Rp 743.400,00 dan dari setiap bebek ia mendapat untung Rp 2.100,00. Berapakah jumlah bebek yang dijual?",
+      "options": [
+        {
+          "key": "A",
+          "text": "32ekor"
+        },
+        {
+          "key": "B",
+          "text": "40ekor"
+        },
+        {
+          "key": "C",
+          "text": "42ekor"
+        },
+        {
+          "key": "D",
+          "text": "46ekor"
+        },
+        {
+          "key": "E",
+          "text": "52ekor"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Jumlah keuntungan = Rp 743.400,00 – Rp",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Dokumen 2)"
+    },
+    {
+      "id": "f2_q_42",
+      "segment_id": "numerik",
+      "subsegment": "Antonim",
+      "question": "200,00=Rp88.200,00 Keuntunganperekor=Rp2.100,00 Jumlah bebek yang dijual = Rp 88.200 : Rp 2.100=42ekor 42.Untuk pembelian suatu barang, Pak Bambang harus meminjam uang kepada temannya sebesar Rp 2.000.000,00 dengan perjanjian bungan sebesar 7,5%. Pak Bambang kemudian menjual barang tersebut seharga Rp 2.250.000,00. Pak Bambang kemudian mengembalikan uang pinjamannya berikut bunga.Berapakah uang kontan di tangan Pak Bambang kini setelah sebelumnya ia membeli oleh-oleh untuk keluarganya seharga Rp 30.500,00 dan ongkos parkir motorsebesarRp2.000,00?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rp67.000,00"
+        },
+        {
+          "key": "B",
+          "text": "Rp67.500,00"
+        },
+        {
+          "key": "C",
+          "text": "Rp68.000,00"
+        },
+        {
+          "key": "D",
+          "text": "Rp68.500,00"
+        },
+        {
+          "key": "E",
+          "text": "Rp66.500,00"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "UanghasilpenjualanRp2.250.000,00 Besarnya pinjaman = Rp 2.000.000,00 + (7,5%ᵡRp2.000.000)=Rp2.150.000,00 Hasil yang didapat = Rp 2.250.000 – Rp",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Dokumen 2)"
+    },
+    {
+      "id": "f2_q_43",
+      "segment_id": "numerik",
+      "subsegment": "Antonim",
+      "question": "150.000=Rp100.000,00 Jumlah uang kontan = Rp 100.000 – (Rp 30.500+Rp2.000)=Rp67.500,00 43.Perbandingan uang Suci dan Murni adalah 3 : 7. Jika uang Murni Rp 210.000,00, maka berapakah selisih uang keduanya?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rp90.000,00"
+        },
+        {
+          "key": "B",
+          "text": "Rp190.000,00"
+        },
+        {
+          "key": "C",
+          "text": "Rp120.000,00"
+        },
+        {
+          "key": "D",
+          "text": "Rp130.000,00"
+        },
+        {
+          "key": "E",
+          "text": "Rp150.000,00"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Perbandingan uang Suci dan Murni adalah 3 : 7 dan uang Murni sejumlah Rp",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Dokumen 2)"
+    },
+    {
+      "id": "f2_q_44",
+      "segment_id": "numerik",
+      "subsegment": "Antonim",
+      "question": "000,00,maka: Uang Suci = 3 : 7 × Rp 210.000,00 = Rp 90.000,00 Selisihuangkeduanyaadalah: =Rp210.000,00–Rp90.000,00 =Rp120.000,00 44.Sepotong kayu dengan panjang 4 meter beratnya 18 ons. Berapa meter panjang kayu yang mempunyai berat 3,15kilogram?",
+      "options": [
+        {
+          "key": "A",
+          "text": "6meter"
+        },
+        {
+          "key": "B",
+          "text": "6,5meter"
+        },
+        {
+          "key": "C",
+          "text": "7meter"
+        },
+        {
+          "key": "D",
+          "text": "7,5meter"
+        },
+        {
+          "key": "E",
+          "text": "7,75meter"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Kayu dengan panjang 4 meter beratnya 18 onsatausetiapmeterberatnya4,5ons. Panjang kayu yang beratnya 3,15 kilogram atau 31,5 ons adalah: 31,5 : 4,5 meter = 7 meter.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Dokumen 2)"
+    },
+    {
+      "id": "f2_q_48",
+      "segment_id": "numerik",
+      "subsegment": "Antonim",
+      "question": "000 48.Dalamsebuahkelasterdapat40siswa. Jika 60% adalah perempuan, berapa jumlahsiswalaki-lakidikelastersebut?",
+      "options": [
+        {
+          "key": "A",
+          "text": "12"
+        },
+        {
+          "key": "B",
+          "text": "14"
+        },
+        {
+          "key": "C",
+          "text": "16"
+        },
+        {
+          "key": "D",
+          "text": "18"
+        },
+        {
+          "key": "E",
+          "text": "20"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Perempuan=60%×40=24 Laki-laki=40–24=20",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Dokumen 2)"
+    },
+    {
+      "id": "f2_q_61",
+      "segment_id": "numerik",
+      "subsegment": "Antonim",
+      "question": "TesUrutanAngka&Huruf Mengukur kemampuan kognitif dan pola pikir logis seseorang, seperti analisis pola, ketelitian, kecermatan, dan kecerdasan umum a.Tesserihuruf Peserta diminta melengkapi deret huruf yang rumpang dengan mengikuti pola tertentu. Misalnya, soal yang muncul adalah deret huruf A, C, E, _. Dengan demikian, jawaban yang benar untuk melengkapi deret tersebut adalah G, berdasarkan pola penambahanduahuruf. 61.B, A, C, A, D, A, E, A, F, A, G, A,....,....",
+      "options": [
+        {
+          "key": "A",
+          "text": "AdanJ"
+        },
+        {
+          "key": "B",
+          "text": "AdanH"
+        },
+        {
+          "key": "C",
+          "text": "HdanA"
+        },
+        {
+          "key": "D",
+          "text": "IdanA"
+        },
+        {
+          "key": "E",
+          "text": "JdanA"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "BACADAEAFAGAHA Jadi,hurufselanjutnyaadalahHdanA.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Dokumen 2)"
+    },
+    {
+      "id": "f2_q_91",
+      "segment_id": "logika",
+      "subsegment": "Antonim",
+      "question": "TesLogika Mengukur penalaran logis dan kemampuan menarikkesimpulan. a.Teslogikadiagram Peserta perlu menginterpretasikan diagram yang tersedia dan menjawab pertanyaan berdasarkaninterpretasitersebut. 91.Jika semua buku di rak adalah novel, dan Harry Potter adalah sebuah buku, makaapakesimpulanyangdapatditarik?",
+      "options": [
+        {
+          "key": "A",
+          "text": "SemuabukuadalahHarryPotter"
+        },
+        {
+          "key": "B",
+          "text": "SemuanoveladalahHarryPotter"
+        },
+        {
+          "key": "C",
+          "text": "Semuanoveladalahbuku"
+        },
+        {
+          "key": "D",
+          "text": "SemuaHarryPotteradalahnovel"
+        },
+        {
+          "key": "E",
+          "text": "SemuabukudirakadalahHarryPotter"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "novel Pembahasan: Dari premis yang diberikan, kita bisa tahu kalau semua buku di rak adalah novel. Karena Harry Potter adalah sebuah buku, maka kesimpulan yang dapat ditarik: Harry Potteradalahnovel.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Dokumen 2)"
+    },
+    {
+      "id": "custom_341970",
+      "segment_id": "verbal",
+      "subsegment": "Sinonim Uji Coba",
+      "question": "Sinonim dari kata KOLABORATIF adalah...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Individualis"
+        },
+        {
+          "key": "B",
+          "text": "Bekerja bersama"
+        },
+        {
+          "key": "C",
+          "text": "Menolak bantuan"
+        },
+        {
+          "key": "D",
+          "text": "Menyendiri"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Kolaboratif berasal dari kata kolaborasi yang berarti bekerja sama secara aktif.",
+      "source": "Pengujian Otomatis"
+    },
+    {
+      "id": "custom_257279",
+      "segment_id": "verbal",
+      "subsegment": "Sinonim Uji Coba",
+      "question": "Sinonim dari kata KOLABORATIF adalah...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Individualis"
+        },
+        {
+          "key": "B",
+          "text": "Bekerja bersama"
+        },
+        {
+          "key": "C",
+          "text": "Menolak bantuan"
+        },
+        {
+          "key": "D",
+          "text": "Menyendiri"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Kolaboratif berasal dari kata kolaborasi yang berarti bekerja sama secara aktif.",
+      "source": "Pengujian Otomatis"
+    },
+    {
+      "id": "f1_q_1",
+      "segment_id": "verbal",
+      "subsegment": "Sinonim",
+      "question": "Sinonim dari kata adaptif adalah …",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kaku"
+        },
+        {
+          "key": "B",
+          "text": "Mudah menyesuaikan"
+        },
+        {
+          "key": "C",
+          "text": "Tertutup"
+        },
+        {
+          "key": "D",
+          "text": "Keras kepala"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Adaptif = mampu menyesuaikan diri.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_2",
+      "segment_id": "verbal",
+      "subsegment": "Antonim",
+      "question": "Lawan kata dari ekspansif adalah …",
+      "options": [
+        {
+          "key": "A",
+          "text": "Luas"
+        },
+        {
+          "key": "B",
+          "text": "Menyempit"
+        },
+        {
+          "key": "C",
+          "text": "Terbuka"
+        },
+        {
+          "key": "D",
+          "text": "Besar"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Ekspansif berarti meluas. Antonimnya adalah menyempit.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_3",
+      "segment_id": "verbal",
+      "subsegment": "Pengelompokan Kata",
+      "question": "Mana yang tidak sejenis?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sapi"
+        },
+        {
+          "key": "B",
+          "text": "Kambing"
+        },
+        {
+          "key": "C",
+          "text": "Kerbau"
+        },
+        {
+          "key": "D",
+          "text": "Ayam"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Sapi, kambing, kerbau = hewan ternak pemakan rumput (mamalia). Ayam berbeda (unggas).",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_4",
+      "segment_id": "verbal",
+      "subsegment": "Analogi",
+      "question": "Dokter : Pasien = Guru : …",
+      "options": [
+        {
+          "key": "A",
+          "text": "Murid"
+        },
+        {
+          "key": "B",
+          "text": "Buku"
+        },
+        {
+          "key": "C",
+          "text": "Sekolah"
+        },
+        {
+          "key": "D",
+          "text": "Pelajaran"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Dokter menangani pasien, guru membimbing murid.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_5",
+      "segment_id": "numerik",
+      "subsegment": "Angka Cerita",
+      "question": "Sebuah toko menjual 120 botol minuman. Jika 30% sudah terjual, berapa botol yang masih ada?",
+      "options": [
+        {
+          "key": "A",
+          "text": "80"
+        },
+        {
+          "key": "B",
+          "text": "84"
+        },
+        {
+          "key": "C",
+          "text": "90"
+        },
+        {
+          "key": "D",
+          "text": "96"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "30% × 120 = 36 terjual. Sisa = 120 – 36 = 90.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_6",
+      "segment_id": "numerik",
+      "subsegment": "Angka Cerita",
+      "question": "3, 6, 12, 24, … angka selanjutnya adalah …",
+      "options": [
+        {
+          "key": "A",
+          "text": "30"
+        },
+        {
+          "key": "B",
+          "text": "36"
+        },
+        {
+          "key": "C",
+          "text": "48"
+        },
+        {
+          "key": "D",
+          "text": "50"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Pola ×2 → 3 → 6 → 12 → 24 → 48.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_7",
+      "segment_id": "urutan",
+      "subsegment": "Seri Huruf",
+      "question": "A, C, E, G, … huruf berikutnya adalah …",
+      "options": [
+        {
+          "key": "A",
+          "text": "H"
+        },
+        {
+          "key": "B",
+          "text": "I"
+        },
+        {
+          "key": "C",
+          "text": "J"
+        },
+        {
+          "key": "D",
+          "text": "K"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pola loncat 1 huruf: A, (B), C, (D), E, (F), G, (H), I.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_8",
+      "segment_id": "numerik",
+      "subsegment": "Deret Angka",
+      "question": "2, 5, 10, 17, 26, … angka selanjutnya adalah …",
+      "options": [
+        {
+          "key": "A",
+          "text": "35"
+        },
+        {
+          "key": "B",
+          "text": "37"
+        },
+        {
+          "key": "C",
+          "text": "38"
+        },
+        {
+          "key": "D",
+          "text": "39"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Selisih bertambah 3: (+3, +5, +7, +9, +11) → 26 + 13 = 39.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_9",
+      "segment_id": "numerik",
+      "subsegment": "Aritmatika Dasar",
+      "question": "48 ÷ (6 × 2) = …",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "6 × 2 = 12. Lalu 48 ÷ 12 = 4.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_10",
+      "segment_id": "urutan",
+      "subsegment": "Urutan Angka",
+      "question": "Susun angka berikut dari kecil ke besar: 0, –3, 5, –1, 4",
+      "options": [
+        {
+          "key": "A",
+          "text": "–3, –1, 0, 4, 5"
+        },
+        {
+          "key": "B",
+          "text": "–3, 0, –1, 4, 5"
+        },
+        {
+          "key": "C",
+          "text": "–1, –3, 0, 4, 5"
+        },
+        {
+          "key": "D",
+          "text": "0, –1, –3, 4, 5"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Urutan bilangan dari terkecil ke terbesar.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_11",
+      "segment_id": "urutan",
+      "subsegment": "Urutan Huruf",
+      "question": "Susun huruf berikut sesuai abjad: M, A, K, Z, D",
+      "options": [
+        {
+          "key": "A",
+          "text": "A, D, K, M, Z"
+        },
+        {
+          "key": "B",
+          "text": "A, K, D, M, Z"
+        },
+        {
+          "key": "C",
+          "text": "M, A, D, K, Z"
+        },
+        {
+          "key": "D",
+          "text": "Z, M, K, D, A"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Sesuai urutan alfabet.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_12",
+      "segment_id": "logika",
+      "subsegment": "Logika Umum",
+      "question": "Semua mawar adalah bunga. Semua bunga adalah tanaman. Maka …",
+      "options": [
+        {
+          "key": "A",
+          "text": "Semua tanaman adalah bunga"
+        },
+        {
+          "key": "B",
+          "text": "Semua bunga adalah mawar"
+        },
+        {
+          "key": "C",
+          "text": "Semua mawar adalah tanaman"
+        },
+        {
+          "key": "D",
+          "text": "Semua tanaman adalah mawar"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Mawar bunga tanaman.⊂ ⊂",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_13",
+      "segment_id": "numerik",
+      "subsegment": "Angka Cerita",
+      "question": "Jika hujan turun, maka tanah basah. Sekarang hujan turun. Kesimpulannya …",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tanah kering"
+        },
+        {
+          "key": "B",
+          "text": "Tanah basah"
+        },
+        {
+          "key": "C",
+          "text": "Tidak ada kesimpulan"
+        },
+        {
+          "key": "D",
+          "text": "Hujan berhenti"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Jawaban yang tepat adalah B.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_14",
+      "segment_id": "logika",
+      "subsegment": "Silogisme",
+      "question": "Semua karyawan Paragon pekerja keras. Sebagian pekerja keras kreatif. Maka …",
+      "options": [
+        {
+          "key": "A",
+          "text": "Semua karyawan Paragon kreatif"
+        },
+        {
+          "key": "B",
+          "text": "Sebagian karyawan Paragon kreatif"
+        },
+        {
+          "key": "C",
+          "text": "Tidak ada karyawan Paragon kreatif"
+        },
+        {
+          "key": "D",
+          "text": "Semua pekerja keras karyawan Paragon"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Jawaban yang tepat adalah B.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_15",
+      "segment_id": "logika",
+      "subsegment": "Logika Umum",
+      "question": "Jika 5 orang dapat menyelesaikan pekerjaan dalam 12 hari, maka 10 orang dengan kemampuan sama akan menyelesaikan dalam …",
+      "options": [
+        {
+          "key": "A",
+          "text": "4 hari"
+        },
+        {
+          "key": "B",
+          "text": "5 hari"
+        },
+        {
+          "key": "C",
+          "text": "6 hari"
+        },
+        {
+          "key": "D",
+          "text": "8 hari"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Banyak pekerja × waktu = konstan → 5 × 12 = 10 × t → t = 6.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_16",
+      "segment_id": "kepribadian",
+      "subsegment": "Sikap & Nilai Diri",
+      "question": "Saya lebih suka bekerja dalam tim daripada bekerja sendirian.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sangat setuju"
+        },
+        {
+          "key": "B",
+          "text": "Setuju"
+        },
+        {
+          "key": "C",
+          "text": "Tidak setuju"
+        },
+        {
+          "key": "D",
+          "text": "Sangat tidak setuju"
+        },
+        {
+          "key": "A",
+          "text": "Penting"
+        },
+        {
+          "key": "B",
+          "text": "Biasa"
+        },
+        {
+          "key": "C",
+          "text": "Sampingan"
+        },
+        {
+          "key": "D",
+          "text": "Ringan"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Esensial = sangat penting/pokok.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_17",
+      "segment_id": "verbal",
+      "subsegment": "Antonim",
+      "question": "2. Antonim Lawan kata dari produktif adalah …",
+      "options": [
+        {
+          "key": "A",
+          "text": "Efisien"
+        },
+        {
+          "key": "B",
+          "text": "Pasif"
+        },
+        {
+          "key": "C",
+          "text": "Mandiri"
+        },
+        {
+          "key": "D",
+          "text": "Positif"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Jawaban yang tepat adalah B.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_18",
+      "segment_id": "verbal",
+      "subsegment": "Analogi",
+      "question": "3. Analogi Kertas : Buku = Batu Bata : …",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tembok"
+        },
+        {
+          "key": "B",
+          "text": "Rumah"
+        },
+        {
+          "key": "C",
+          "text": "Semen"
+        },
+        {
+          "key": "D",
+          "text": "Lantai"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Kertas membentuk buku, batu bata membentuk tembok.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_19",
+      "segment_id": "verbal",
+      "subsegment": "Pengelompokan Kata",
+      "question": "4. Kelompok Kata Pilih yang berbeda:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kopi"
+        },
+        {
+          "key": "B",
+          "text": "Teh"
+        },
+        {
+          "key": "C",
+          "text": "Susu"
+        },
+        {
+          "key": "D",
+          "text": "Roti"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "A–C = minuman, D = makanan.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_20",
+      "segment_id": "numerik",
+      "subsegment": "Angka Cerita",
+      "question": "5. Cerita Sebuah mesin mencetak 450 kotak dalam 9 jam. Dalam 15 jam menghasilkan …",
+      "options": [
+        {
+          "key": "A",
+          "text": "650"
+        },
+        {
+          "key": "B",
+          "text": "700"
+        },
+        {
+          "key": "C",
+          "text": "750"
+        },
+        {
+          "key": "D",
+          "text": "800"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "450 ÷ 9 = 50/jam. ×15 = 750.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_21",
+      "segment_id": "numerik",
+      "subsegment": "Angka Cerita",
+      "question": "6. Cerita Harga 1 pensil Rp 2.500. Jika beli 48 pensil = …",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rp 110.000"
+        },
+        {
+          "key": "B",
+          "text": "Rp 115.000"
+        },
+        {
+          "key": "C",
+          "text": "Rp 120.000"
+        },
+        {
+          "key": "D",
+          "text": "Rp 125.000"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "48 × 2.500 = 120.000.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_22",
+      "segment_id": "numerik",
+      "subsegment": "Deret Angka",
+      "question": "37. Deret Angka 7, 14, 28, 56, …",
+      "options": [
+        {
+          "key": "A",
+          "text": "84"
+        },
+        {
+          "key": "B",
+          "text": "98"
+        },
+        {
+          "key": "C",
+          "text": "112"
+        },
+        {
+          "key": "D",
+          "text": "120"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "×2 setiap langkah.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_23",
+      "segment_id": "numerik",
+      "subsegment": "Deret Angka",
+      "question": "8. Deret Angka 5, 10, 20, 40, 80, …",
+      "options": [
+        {
+          "key": "A",
+          "text": "100"
+        },
+        {
+          "key": "B",
+          "text": "120"
+        },
+        {
+          "key": "C",
+          "text": "150"
+        },
+        {
+          "key": "D",
+          "text": "160"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Jawaban yang tepat adalah D.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_24",
+      "segment_id": "urutan",
+      "subsegment": "Seri Huruf",
+      "question": "9. Seri Huruf B, E, H, K, …",
+      "options": [
+        {
+          "key": "A",
+          "text": "N"
+        },
+        {
+          "key": "B",
+          "text": "O"
+        },
+        {
+          "key": "C",
+          "text": "P"
+        },
+        {
+          "key": "D",
+          "text": "Q"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Loncat 3 huruf.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_25",
+      "segment_id": "urutan",
+      "subsegment": "Seri Huruf",
+      "question": "10. Seri Huruf Z, Y, W, T, …",
+      "options": [
+        {
+          "key": "A",
+          "text": "Q"
+        },
+        {
+          "key": "B",
+          "text": "R"
+        },
+        {
+          "key": "C",
+          "text": "S"
+        },
+        {
+          "key": "D",
+          "text": "P"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Mundur 1, mundur 2, mundur 3 … (Z→Y→W→T→Q).",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_26",
+      "segment_id": "numerik",
+      "subsegment": "Aritmatika Dasar",
+      "question": "11. Aritmatika (25 × 4) ÷ (10 ÷ 2) = …",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "15"
+        },
+        {
+          "key": "C",
+          "text": "20"
+        },
+        {
+          "key": "D",
+          "text": "25"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "25×4 = 100, 10÷2 = 5 → 100÷5 = 20.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_27",
+      "segment_id": "numerik",
+      "subsegment": "Aritmatika Dasar",
+      "question": "12. Aritmatika ⅓ dari 240 + 25% dari 160 = …",
+      "options": [
+        {
+          "key": "A",
+          "text": "120"
+        },
+        {
+          "key": "B",
+          "text": "140"
+        },
+        {
+          "key": "C",
+          "text": "160"
+        },
+        {
+          "key": "D",
+          "text": "180"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "⅓×240 = 80, 25%×160 = 40, total = 120 (oops cek ulang). 👉 80+40 = 120 → 👉 A. 120",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_28",
+      "segment_id": "logika",
+      "subsegment": "Silogisme",
+      "question": "15. Silogisme Semua mahasiswa rajin belajar. Beberapa mahasiswa bekerja. Maka …",
+      "options": [
+        {
+          "key": "A",
+          "text": "Semua pekerja rajin belajar"
+        },
+        {
+          "key": "B",
+          "text": "Semua mahasiswa bekerja"
+        },
+        {
+          "key": "C",
+          "text": "Beberapa mahasiswa rajin belajar dan bekerja"
+        },
+        {
+          "key": "D",
+          "text": "Semua mahasiswa malas"
+        },
+        {
+          "key": "A",
+          "text": "18 hari"
+        },
+        {
+          "key": "B",
+          "text": "20 hari"
+        },
+        {
+          "key": "C",
+          "text": "22 hari"
+        },
+        {
+          "key": "D",
+          "text": "25 hari"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "10×30 = 300, 300÷15 = 20.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_29",
+      "segment_id": "logika",
+      "subsegment": "Silogisme",
+      "question": "Toni lebih tua dari Deni. Deni lebih tua dari Budi. Siapa yang paling muda? a. Toni b. Deni c. Budi",
+      "options": [
+        {
+          "key": "A",
+          "text": "👉👉👉"
+        },
+        {
+          "key": "B",
+          "text": "👉👉👉"
+        },
+        {
+          "key": "C",
+          "text": "👉👉👉"
+        },
+        {
+          "key": "D",
+          "text": "👉👉👉"
+        },
+        {
+          "key": "A",
+          "text": "👉"
+        },
+        {
+          "key": "B",
+          "text": "👉👉👉👉"
+        },
+        {
+          "key": "C",
+          "text": "👉👉👉"
+        },
+        {
+          "key": "D",
+          "text": "👉👉👉👉👉"
+        },
+        {
+          "key": "A",
+          "text": "👉👉👉"
+        },
+        {
+          "key": "B",
+          "text": "👉👉👉"
+        },
+        {
+          "key": "C",
+          "text": "👉👉👉"
+        },
+        {
+          "key": "D",
+          "text": "👉👉👉"
+        },
+        {
+          "key": "A",
+          "text": "⚫⚫⚫⚫"
+        },
+        {
+          "key": "B",
+          "text": "⚫⚫"
+        },
+        {
+          "key": "C",
+          "text": "⚫⚫⚫⚫⚫"
+        },
+        {
+          "key": "D",
+          "text": "⚫"
+        },
+        {
+          "key": "A",
+          "text": "▶️\u0004"
+        },
+        {
+          "key": "B",
+          "text": "👉"
+        },
+        {
+          "key": "C",
+          "text": "👉"
+        },
+        {
+          "key": "D",
+          "text": "◀️\u0004"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Warna merah (👉) berpindah ke kanan satu kotak setiap langkah. Urutannya: kiri → tengah → kanan → (kembali ke kiri) Setiap langkah menambahkan satu garis horizontal (👉). Langkah ke-1 = 1 garis, ke-2 = 2 garis, ke-3 = 3 garis Pola bergantian: bentuk awal → cermin → bentuk awal → cermin Setiap langkah menambah satu titik. Langkah 1 = 1 titik, 2 = 2 titik, 3 = 3 titik, dst Pola menunjukkan rotasi 90° searah jarum jam. (atas) → (bawah) → (kiri) → (kanan)◀️ \u0004 ▶️ \u0004 Rani > Lani Lani > Cani Maka yang tertinggi adalah Rani Toni > Deni > Budi → Budi paling muda.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_30",
+      "segment_id": "logika",
+      "subsegment": "Penalaran Relasi Komparatif",
+      "question": "Berdasarkan informasi berikut, manakah kesimpulan yang paling tepat?\nSoal 2\nAndi lebih cepat dari Bima.\nBima lebih cepat dari Cika.\nSiapa yang paling lambat?\na. Andi\nb. Bima\nc. Cika\nJawaban: c. Cika",
+      "options": [
+        {
+          "key": "A",
+          "text": "Andi berada di posisi terdepan/paling unggul dibanding Bima dan Cika."
+        },
+        {
+          "key": "B",
+          "text": "Bima berada di posisi terdepan dibanding Andi."
+        },
+        {
+          "key": "C",
+          "text": "Cika lebih unggul dibanding Andi."
+        },
+        {
+          "key": "D",
+          "text": "Urutan tidak dapat ditentukan secara logis."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pembahasan: Andi > Bima > Cika → Cika paling lambat.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_31",
+      "segment_id": "logika",
+      "subsegment": "Penalaran Relasi Komparatif",
+      "question": "Berdasarkan informasi berikut, manakah kesimpulan yang paling tepat?\nSoal 3\nLina lebih rajin dari Sita.\nSita lebih rajin dari Dira.\nSiapa yang paling rajin?\na. Lina\nb. Sita\nc. Dira\nJawaban: a. Lina",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lina berada di posisi terdepan/paling unggul dibanding Sita dan Dira."
+        },
+        {
+          "key": "B",
+          "text": "Sita berada di posisi terdepan dibanding Lina."
+        },
+        {
+          "key": "C",
+          "text": "Dira lebih unggul dibanding Lina."
+        },
+        {
+          "key": "D",
+          "text": "Urutan tidak dapat ditentukan secara logis."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pembahasan: Lina > Sita > Dira → Lina paling rajin.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_32",
+      "segment_id": "logika",
+      "subsegment": "Penalaran Relasi Komparatif",
+      "question": "Berdasarkan informasi berikut, manakah kesimpulan yang paling tepat?\nSoal 4\nGilang lebih tinggi dari Fajar.\nFajar lebih tinggi dari Danu.\nSiapa yang paling pendek?\na. Gilang\nb. Danu\nc. Fajar\nJawaban: b. Danu",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gilang berada di posisi terdepan/paling unggul dibanding Fajar dan Danu."
+        },
+        {
+          "key": "B",
+          "text": "Fajar berada di posisi terdepan dibanding Gilang."
+        },
+        {
+          "key": "C",
+          "text": "Danu lebih unggul dibanding Gilang."
+        },
+        {
+          "key": "D",
+          "text": "Urutan tidak dapat ditentukan secara logis."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pembahasan: Gilang > Fajar > Danu → Danu paling pendek.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_33",
+      "segment_id": "logika",
+      "subsegment": "Penalaran Relasi Komparatif",
+      "question": "Berdasarkan informasi berikut, manakah kesimpulan yang paling tepat?\nSoal 5\nNina lebih pintar dari Lala.\nLala lebih pintar dari Rara.\nSiapa yang paling pintar?\na. Nina\nb. Lala\nc. Rara\nJawaban: a. Nina",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nina berada di posisi terdepan/paling unggul dibanding Lala dan Rara."
+        },
+        {
+          "key": "B",
+          "text": "Lala berada di posisi terdepan dibanding Nina."
+        },
+        {
+          "key": "C",
+          "text": "Rara lebih unggul dibanding Nina."
+        },
+        {
+          "key": "D",
+          "text": "Urutan tidak dapat ditentukan secara logis."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pembahasan: Nina > Lala > Rara → Nina paling pintar.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_34",
+      "segment_id": "logika",
+      "subsegment": "Penalaran Relasi Komparatif",
+      "question": "Berdasarkan informasi berikut, manakah kesimpulan yang paling tepat?\nSoal 6\nMobil A lebih cepat dari Mobil B.\nMobil B lebih cepat dari Mobil C.\nSiapa yang paling lambat?\na. Mobil A\nb. Mobil B\nc. Mobil C\nJawaban: c. Mobil C",
+      "options": [
+        {
+          "key": "A",
+          "text": "A berada di posisi terdepan/paling unggul dibanding B dan C."
+        },
+        {
+          "key": "B",
+          "text": "B berada di posisi terdepan dibanding A."
+        },
+        {
+          "key": "C",
+          "text": "C lebih unggul dibanding A."
+        },
+        {
+          "key": "D",
+          "text": "Urutan tidak dapat ditentukan secara logis."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pembahasan: A > B > C → C paling lambat.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_35",
+      "segment_id": "logika",
+      "subsegment": "Penalaran Relasi Komparatif",
+      "question": "Berdasarkan informasi berikut, manakah kesimpulan yang paling tepat?\nSoal 8\nBagas lebih kuat dari Roni.\nRoni lebih kuat dari Hadi.\nSiapa yang paling kuat?\na. Hadi\nb. Roni\nc. Bagas\nJawaban: c. Bagas",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bagas berada di posisi terdepan/paling unggul dibanding Roni dan Hadi."
+        },
+        {
+          "key": "B",
+          "text": "Roni berada di posisi terdepan dibanding Bagas."
+        },
+        {
+          "key": "C",
+          "text": "Hadi lebih unggul dibanding Bagas."
+        },
+        {
+          "key": "D",
+          "text": "Urutan tidak dapat ditentukan secara logis."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pembahasan: Bagas > Roni > Hadi → Bagas paling kuat.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_36",
+      "segment_id": "logika",
+      "subsegment": "Penalaran Relasi Komparatif",
+      "question": "Berdasarkan informasi berikut, manakah kesimpulan yang paling tepat?\nSoal 9\nAni lebih cepat menyelesaikan tugas dari Sari.\nSari lebih cepat dari Mita.\nSiapa yang paling lambat?\na. Ani\nb. Sari\nc. Mita\nJawaban: c. Mita",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ani berada di posisi terdepan/paling unggul dibanding Sari dan Mita."
+        },
+        {
+          "key": "B",
+          "text": "Sari berada di posisi terdepan dibanding Ani."
+        },
+        {
+          "key": "C",
+          "text": "Mita lebih unggul dibanding Ani."
+        },
+        {
+          "key": "D",
+          "text": "Urutan tidak dapat ditentukan secara logis."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pembahasan: Ani > Sari > Mita → Mita paling lambat.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_37",
+      "segment_id": "logika",
+      "subsegment": "Penalaran Relasi Komparatif",
+      "question": "Berdasarkan informasi berikut, manakah kesimpulan yang paling tepat?\nSoal 11\nBayu lebih kaya dari Joko.\nJoko lebih kaya dari Nino.\nSiapa yang paling miskin?\na. Bayu\nb. Joko\nc. Nino\nJawaban: c. Nino",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bayu berada di posisi terdepan/paling unggul dibanding Joko dan Nino."
+        },
+        {
+          "key": "B",
+          "text": "Joko berada di posisi terdepan dibanding Bayu."
+        },
+        {
+          "key": "C",
+          "text": "Nino lebih unggul dibanding Bayu."
+        },
+        {
+          "key": "D",
+          "text": "Urutan tidak dapat ditentukan secara logis."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pembahasan: Bayu > Joko > Nino → Nino paling miskin.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f1_q_38",
+      "segment_id": "logika",
+      "subsegment": "Penalaran Relasi Komparatif",
+      "question": "Berdasarkan informasi berikut, manakah kesimpulan yang paling tepat?\nSoal 14\nSalsa lebih cepat mengetik dari Mira.\nMira lebih cepat dari Acha.\nSiapa yang tercepat?\na. Salsa\nb. Mira\nc. Acha\nJawaban: a. Salsa",
+      "options": [
+        {
+          "key": "A",
+          "text": "Salsa berada di posisi terdepan/paling unggul dibanding Mira dan Acha."
+        },
+        {
+          "key": "B",
+          "text": "Mira berada di posisi terdepan dibanding Salsa."
+        },
+        {
+          "key": "C",
+          "text": "Acha lebih unggul dibanding Salsa."
+        },
+        {
+          "key": "D",
+          "text": "Urutan tidak dapat ditentukan secara logis."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pembahasan: Salsa > Mira > Acha → Salsa tercepat.",
+      "source": "Soal Psikotes MT Paragon (Dokumen 1)"
+    },
+    {
+      "id": "f2_q_1",
+      "segment_id": "verbal",
+      "subsegment": "Sinonim (Persamaan Kata)",
+      "question": "Sinonim (persamaan kata) 2. Antonim (lawan kata) 3. Pengelompokan kata 4. Padanan kata (analogi) Tes Numerik 1. Angka pada cerita 2. Logika angka 3. Seri huruf (deret huruf) 4. Deret angka 5. Hitungan dasar / aritmatika Tes Urutan Angka & Huruf 1. Urutan angka 2. Urutan huruf Tes Logika 1. Logika diagram 2. Logika cerita 3. Silogisme 4. Logika umum Tes Spasial / Gambar 1. Padanan gambar 2. Bayangan gambar (cermin/rotasi) 3. Kelompok gambar 4. Identifikasi gambar Tes Kepribadian 1. Pernyataan sikap / preferensi (setuju – tidak setuju, atau pilihan perilaku) Total Test 24 Subtest (60-120 menit) KISI-KISI PSIKOTESKISI-KISI PSIKOTES BAB 1BAB 1 TES VERBALTES VERBAL TESPSIKOTESMANAGEMENTTRAINEE(MT)DANPEMBAHASAN 1.Tes Verbal Mengukurkemampuanbahasa,kosakata, danpemahamanhubunganantarkata. a.Sinonim(persamaankata) Peserta diminta menemukan kata yang merupakan lawan dari kata yang diberikan dalam soal. Misalnya, jika kata yang diberikan adalah \"panas\", maka lawan katanya atau jawaban yang benar adalah \"dingin\". Contohsoal: 1.Apa persamaan kata dari kesahihan?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kebenaran"
+        },
+        {
+          "key": "B",
+          "text": "Kemantapan"
+        },
+        {
+          "key": "C",
+          "text": "Keberlakuan"
+        },
+        {
+          "key": "D",
+          "text": "Kesalahan"
+        },
+        {
+          "key": "E",
+          "text": "Kematangan"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Kesahihan merujuk pada keadaan atau kualitas yang valid atau sah. Sinonim dari kesahihan adalah kebenaran, karena keduanya mengacu pada sesuatu yang benar atau sah secara hukum atau fakta. Pilihan lain seperti kematangan, keberlakuan, kesalahan, dan kemantapan tidak tepat. Pasalnya, mereka tidak memiliki makna yangsamadengankesahihan.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #1)"
+    },
+    {
+      "id": "f2_q_5",
+      "segment_id": "verbal",
+      "subsegment": "Sinonim (Persamaan Kata)",
+      "question": "Kata yang memiliki makna sinonim dengan\"cerah\"adalah...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gelap"
+        },
+        {
+          "key": "B",
+          "text": "Terang"
+        },
+        {
+          "key": "C",
+          "text": "Suram"
+        },
+        {
+          "key": "D",
+          "text": "Mendung"
+        },
+        {
+          "key": "E",
+          "text": "Redup"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Kata \"cerah\" digunakan untuk menggambarkan kondisi cuaca atau cahaya yang terang atau menyilaukan. Kata “cerah” ini sering digunakan untuk menggambarkan langit yang terang, cuaca yang cerah, atau cahaya yang terang. Adapun makna yang sama dengan \"cerah\" adalah \"terang\". Oleh karena itu, pilihan jawaban yang benar adalah B.Terang.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #5)"
+    },
+    {
+      "id": "f2_q_6",
+      "segment_id": "verbal",
+      "subsegment": "Sinonim (Persamaan Kata)",
+      "question": "Sinonim dari kata “abstrak”adalah…",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nyata"
+        },
+        {
+          "key": "B",
+          "text": "Kabur"
+        },
+        {
+          "key": "C",
+          "text": "Konkrit"
+        },
+        {
+          "key": "D",
+          "text": "Teoretis"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Abstrak”berartitidaknyatasecarafisikatau tidak bisa disentuh. Kata yang paling mendekati makna ini adalah “teoretis”, karenakeduanyabersifatkonseptual.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #6)"
+    },
+    {
+      "id": "f2_q_7",
+      "segment_id": "verbal",
+      "subsegment": "Sinonim (Persamaan Kata)",
+      "question": "Sinonim dari kata “vital”adalah…",
+      "options": [
+        {
+          "key": "A",
+          "text": "Penting"
+        },
+        {
+          "key": "B",
+          "text": "Mati"
+        },
+        {
+          "key": "C",
+          "text": "Sepele"
+        },
+        {
+          "key": "D",
+          "text": "Biasa"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "“Vital” berarti sangat penting atau krusial. Jadi,sinonimyangtepatadalah“penting”.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #7)"
+    },
+    {
+      "id": "f2_q_8",
+      "segment_id": "verbal",
+      "subsegment": "Sinonim (Persamaan Kata)",
+      "question": "Sinonim dari kata “resesi”adalah…",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kemajuan"
+        },
+        {
+          "key": "B",
+          "text": "Pemulihan"
+        },
+        {
+          "key": "C",
+          "text": "Krisis"
+        },
+        {
+          "key": "D",
+          "text": "Perkembangan"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "“Resesi” dalam konteks ekonomi mengacu pada kemunduran atau krisis ekonomi. Maka, sinonim yang paling tepat adalah “krisis”.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #8)"
+    },
+    {
+      "id": "f2_q_9",
+      "segment_id": "verbal",
+      "subsegment": "Sinonim (Persamaan Kata)",
+      "question": "Sinonim dari kata “intensif”adalah",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cepat"
+        },
+        {
+          "key": "B",
+          "text": "Ringan"
+        },
+        {
+          "key": "C",
+          "text": "Mendalam"
+        },
+        {
+          "key": "D",
+          "text": "Sederhana"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "“Intensif” berarti dilakukan dengan penuh perhatian dan mendalam. Jadi, sinonimnya adalah“mendalam”.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #9)"
+    },
+    {
+      "id": "f2_q_10",
+      "segment_id": "verbal",
+      "subsegment": "Sinonim (Persamaan Kata)",
+      "question": "Sinonim dari kata “global”adalah…",
+      "options": [
+        {
+          "key": "A",
+          "text": "Luas"
+        },
+        {
+          "key": "B",
+          "text": "Umum"
+        },
+        {
+          "key": "C",
+          "text": "Internasional"
+        },
+        {
+          "key": "D",
+          "text": "Lokal"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "“Global” berarti mendunia atau mencakup seluruh dunia. Sinonim yang paling dekat adalah“internasional”. b.Antonim(lawankata) Pesertadimintamencari kata yang memiliki artiyangsamaataumirip dengan kata yang diberikandalamsoal.Contohnya,untuk kata\"cepat\",sinonimnyabisa\"laju\".",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #10)"
+    },
+    {
+      "id": "f2_q_11",
+      "segment_id": "verbal",
+      "subsegment": "Antonim (Lawan Kata)",
+      "question": "Apa lawan kata dari tenggelam?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Melayang-layang"
+        },
+        {
+          "key": "B",
+          "text": "Terombang-ambing"
+        },
+        {
+          "key": "C",
+          "text": "Taktentu"
+        },
+        {
+          "key": "D",
+          "text": "Terkatung"
+        },
+        {
+          "key": "E",
+          "text": "Terapung"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Tenggelam berarti berada di bawah permukaan air atau masuk ke dalam air dan tidakterlihatdipermukaan.Lawankatadari tenggelam adalah terapung, yang berarti berada di atas permukaan air atau mengambang di atas air. Pilihan lain seperti terombang-ambing, melayang-layang, tak tentu, dan terkatung tidak memiliki makna yang berlawanan langsung dengan tenggelam.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #11)"
+    },
+    {
+      "id": "f2_q_12",
+      "segment_id": "verbal",
+      "subsegment": "Antonim (Lawan Kata)",
+      "question": "Apa lawan kata dari keseragaman?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Monopoli"
+        },
+        {
+          "key": "B",
+          "text": "Disparitas"
+        },
+        {
+          "key": "C",
+          "text": "Tinggirendah"
+        },
+        {
+          "key": "D",
+          "text": "Berdua"
+        },
+        {
+          "key": "E",
+          "text": "Uni"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Keseragaman berarti keadaan di mana semua elemen atau bagian adalah sama atau serupa.Lawankatadarikeseragamanadalah disparitas, yang berarti perbedaan atau ketidakseragaman. Pilihan lain seperti monopoli, berdua, tinggi rendah, dan uni tidak memiliki makna yang berlawanan langsung dengan keseragaman. Disparitas secara khusus menunjukkan adanya perbedaan atau variasi, sehingga menjadi antonim yang tepat untuk keseragaman.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #12)"
+    },
+    {
+      "id": "f2_q_13",
+      "segment_id": "verbal",
+      "subsegment": "Antonim (Lawan Kata)",
+      "question": "Apa lawan kata dari kataekstrovert?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Terisolasi"
+        },
+        {
+          "key": "B",
+          "text": "Introvert"
+        },
+        {
+          "key": "C",
+          "text": "Pendiam"
+        },
+        {
+          "key": "D",
+          "text": "Penyendiri"
+        },
+        {
+          "key": "E",
+          "text": "Pemalu"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Ekstrovert adalah istilah psikologis yang menggambarkan seseorang dengan kecenderungan mendapatkan energi dari interaksi sosial dan merasa nyaman berada disekitaroranglain. Lawankataekstrovertadalahintrovert,yang menggambarkan seseorang dengan kecenderungan mendapatkan energi dari waktu yang dihabiskannya saat sendirian. Orang introvert juga merasa lebih nyaman dalam kesendirian atau saat melakukan interaksisatulawansatu.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #13)"
+    },
+    {
+      "id": "f2_q_14",
+      "segment_id": "verbal",
+      "subsegment": "Antonim (Lawan Kata)",
+      "question": "Kendala><…",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hambatan"
+        },
+        {
+          "key": "B",
+          "text": "Rintangan"
+        },
+        {
+          "key": "C",
+          "text": "Pendukung"
+        },
+        {
+          "key": "D",
+          "text": "Ujian"
+        },
+        {
+          "key": "E",
+          "text": "Halangan"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Kendala berarti sesuatu yang menghambat atau menghalangi, atau kesulitan yang mengganggu kelancaran suatu kegiatan. Maka, jawaban paling tepat untuk soal ini adalah C.Pendukung. Pasalnya, arti dari kata pendukung adalah sesuatu yang bisa membantu untuk memudahkan atau memperlancar sesuatu. Sementara itu, untuk pilihan lainnya, opsi tersebut memiliki makna serupa dengan kendala, yang berarti sesuatu yang menghambatataumenyulitkan.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #14)"
+    },
+    {
+      "id": "f2_q_15",
+      "segment_id": "verbal",
+      "subsegment": "Antonim (Lawan Kata)",
+      "question": "Lazim><...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Zakat"
+        },
+        {
+          "key": "B",
+          "text": "Beda"
+        },
+        {
+          "key": "C",
+          "text": "Benci"
+        },
+        {
+          "key": "D",
+          "text": "Jujur"
+        },
+        {
+          "key": "E",
+          "text": "Lumrah"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Kata \"lazim\" mengacu pada sesuatu yang umum, biasa terjadi, atau sering terjadi. Antonim dari \"lazim\" adalah sesuatu yang tidak umum atau berbeda dari keadaan biasanya. Oleh karena itu, kata yang paling sesuai sebagai antonim dari \"lazim\" adalah \"beda\", yang menunjukkan keadaan yang berlawanandenganyangumumataubiasa. Pilihan jawaban A. Zakat, memang berbeda dari \"lazim\" secara arti. Namun, \"zakat\" adalah pilihan yang salah karena tidak berlawanan dengan \"lazim\". Adapun pilihan jawaban C. Benci, D. Jujur, dan E. Lumrah tidak sesuai dengan makna antonim dari \"lazim\", karena mereka tidak menggambarkan sesuatu yang berlawanan dengankeadaanumumataubiasa.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #15)"
+    },
+    {
+      "id": "f2_q_16",
+      "segment_id": "verbal",
+      "subsegment": "Antonim (Lawan Kata)",
+      "question": "Antonim dari kata “objektif” adalah…",
+      "options": [
+        {
+          "key": "A",
+          "text": "Netral"
+        },
+        {
+          "key": "B",
+          "text": "Adil"
+        },
+        {
+          "key": "C",
+          "text": "Subjektif"
+        },
+        {
+          "key": "D",
+          "text": "Rasional"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "“Objektif” berarti menilai sesuatu tanpa dipengaruhi perasaan pribadi. Lawan katanya adalah “subjektif”, yaitu menilai berdasarkanpandanganpribadi.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #16)"
+    },
+    {
+      "id": "f2_q_17",
+      "segment_id": "verbal",
+      "subsegment": "Antonim (Lawan Kata)",
+      "question": "Antonim dari kata “ekspansif” adalah…",
+      "options": [
+        {
+          "key": "A",
+          "text": "Meluas"
+        },
+        {
+          "key": "B",
+          "text": "Kaku"
+        },
+        {
+          "key": "C",
+          "text": "Terbatas"
+        },
+        {
+          "key": "D",
+          "text": "Terbuka"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "“Ekspansif”berartimeluasatauberkembang. Lawan katanya adalah “terbatas”, yang berartimemilikibatasatautidakmeluas.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #17)"
+    },
+    {
+      "id": "f2_q_18",
+      "segment_id": "verbal",
+      "subsegment": "Antonim (Lawan Kata)",
+      "question": "Antonim dari kata “progresif” adalah…",
+      "options": [
+        {
+          "key": "A",
+          "text": "Inovatif"
+        },
+        {
+          "key": "B",
+          "text": "Stagnan"
+        },
+        {
+          "key": "C",
+          "text": "Aktif"
+        },
+        {
+          "key": "D",
+          "text": "Cepat"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "“Progresif” berarti terus berkembang atau maju. Lawan katanya adalah “stagnan”, yang berarti tidak mengalami perubahan ataukemajuan.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #18)"
+    },
+    {
+      "id": "f2_q_19",
+      "segment_id": "verbal",
+      "subsegment": "Antonim (Lawan Kata)",
+      "question": "Antonim dari kata “loyal”adalah…",
+      "options": [
+        {
+          "key": "A",
+          "text": "Taat"
+        },
+        {
+          "key": "B",
+          "text": "Setia"
+        },
+        {
+          "key": "C",
+          "text": "Khianat"
+        },
+        {
+          "key": "D",
+          "text": "Jujur"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "“Loyal” berarti setia atau tidak berpaling. Lawan katanya adalah “khianat”, yaitu berpalingataumelanggarkesetiaan.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #19)"
+    },
+    {
+      "id": "f2_q_20",
+      "segment_id": "verbal",
+      "subsegment": "Antonim (Lawan Kata)",
+      "question": "Antonim dari kata “minimal” adalah…",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sedikit"
+        },
+        {
+          "key": "B",
+          "text": "Sederhana"
+        },
+        {
+          "key": "C",
+          "text": "Maksimal"
+        },
+        {
+          "key": "D",
+          "text": "Lumayan"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "“Minimal” berarti paling sedikit. Lawan katanya adalah “maksimal”, yaitu paling banyak. c.Pengelompokankata Peserta harus menemukan satu kata yang tidak termasuk dalam kelompok kata yang diberikan. Misalnya, dalam kelompok \"apel, jeruk, mobil, pisang\", kata \"mobil\" tidak termasukdalamkelompokbuah-buahan.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #20)"
+    },
+    {
+      "id": "f2_q_21",
+      "segment_id": "verbal",
+      "subsegment": "Pengelompokan Kata",
+      "question": "Mana yang tidak masuk dalam kelompoknya?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kenya"
+        },
+        {
+          "key": "B",
+          "text": "Bangladesh"
+        },
+        {
+          "key": "C",
+          "text": "Kuala Lumpur"
+        },
+        {
+          "key": "D",
+          "text": "Cile"
+        },
+        {
+          "key": "E",
+          "text": "Brunei Darussalam"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Kelompok nama negara. Kuala Lumpur bukan nama negara, melainkan nama ibu kota Negara Malaysia.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #21)"
+    },
+    {
+      "id": "f2_q_22",
+      "segment_id": "verbal",
+      "subsegment": "Pengelompokan Kata",
+      "question": "Mana yang tidak masuk dalam kelompoknya?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rabat"
+        },
+        {
+          "key": "B",
+          "text": "Dolar"
+        },
+        {
+          "key": "C",
+          "text": "Rupee"
+        },
+        {
+          "key": "D",
+          "text": "Bath"
+        },
+        {
+          "key": "E",
+          "text": "Dinar"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Kelompok mata uang. Rabat bukan mata uang,melainkannamaibukotadari Maroko. Kata rabat dalam bahasa Indonesia juga memilikiarti'potonganharga'.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #22)"
+    },
+    {
+      "id": "f2_q_23",
+      "segment_id": "verbal",
+      "subsegment": "Pengelompokan Kata",
+      "question": "Mana yang tidak masuk dalam kelompoknya?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Eksponensial"
+        },
+        {
+          "key": "B",
+          "text": "Logaritma"
+        },
+        {
+          "key": "C",
+          "text": "Geofisika"
+        },
+        {
+          "key": "D",
+          "text": "Fungsi Invers"
+        },
+        {
+          "key": "E",
+          "text": "Transformasi"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Kelompok materi pelajaran Matematika. Geofisika bukan materi pelajaran Matematika, melainkan bagian dari ilmu bumi yang dipelajari dengan menggunakan prinsip-prinsipfisika.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #23)"
+    },
+    {
+      "id": "f2_q_24",
+      "segment_id": "verbal",
+      "subsegment": "Pengelompokan Kata",
+      "question": "Mana yang tidak masuk dalam kelompoknya?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dikotil"
+        },
+        {
+          "key": "B",
+          "text": "Dikotomi"
+        },
+        {
+          "key": "C",
+          "text": "Ekosistem"
+        },
+        {
+          "key": "D",
+          "text": "Hibernasi"
+        },
+        {
+          "key": "E",
+          "text": "Kontur"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Kelompok istilah biologi. Kontur bukan istilahbiologi,melainkanistilahgeografi.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #24)"
+    },
+    {
+      "id": "f2_q_25",
+      "segment_id": "verbal",
+      "subsegment": "Pengelompokan Kata",
+      "question": "Mana yang tidak masuk dalam kelompoknya?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pillow"
+        },
+        {
+          "key": "B",
+          "text": "Kitchen"
+        },
+        {
+          "key": "C",
+          "text": "Character"
+        },
+        {
+          "key": "D",
+          "text": "Merci"
+        },
+        {
+          "key": "E",
+          "text": "Number"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Kelompokkatadalambahasa Inggris. Merci bukankatadalambahasa Inggris,melainkan kata dalam bahasa Prancis yang berarti 'terimakasih'.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #25)"
+    },
+    {
+      "id": "f2_q_26",
+      "segment_id": "verbal",
+      "subsegment": "Pengelompokan Kata",
+      "question": "Mana yang tidak masuk dalam kelompoknya?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hot Dog"
+        },
+        {
+          "key": "B",
+          "text": "Burger"
+        },
+        {
+          "key": "C",
+          "text": "Pizza"
+        },
+        {
+          "key": "D",
+          "text": "Tiramisu"
+        },
+        {
+          "key": "E",
+          "text": "French Fries"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Kelompok makanan cepat saji (fast food). Tiramisu bukan makanan cepat saji karena pembuatannyamemerlukanwaktulama.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #26)"
+    },
+    {
+      "id": "f2_q_27",
+      "segment_id": "verbal",
+      "subsegment": "Pengelompokan Kata",
+      "question": "Mana yang tidak masuk dalam kelompoknya?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Majapahit"
+        },
+        {
+          "key": "B",
+          "text": "Kalingga"
+        },
+        {
+          "key": "C",
+          "text": "Kudungga"
+        },
+        {
+          "key": "D",
+          "text": "Tarumanegara"
+        },
+        {
+          "key": "E",
+          "text": "Kutai"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Kelompok nama kerajaan di Indonesia. Kudungga bukan nama kerajaan, melainkan namarajapertamadari Kerajaan Kutai.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #27)"
+    },
+    {
+      "id": "f2_q_28",
+      "segment_id": "verbal",
+      "subsegment": "Pengelompokan Kata",
+      "question": "Mana yang tidak masuk dalam kelompoknya?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yoghurt"
+        },
+        {
+          "key": "B",
+          "text": "Puding"
+        },
+        {
+          "key": "C",
+          "text": "Keju"
+        },
+        {
+          "key": "D",
+          "text": "Krim"
+        },
+        {
+          "key": "E",
+          "text": "Mentega"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Kelompok produk makanan dari bahan dasar susu. Yang tidak termasuk adalah puding.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #28)"
+    },
+    {
+      "id": "f2_q_29",
+      "segment_id": "verbal",
+      "subsegment": "Pengelompokan Kata",
+      "question": "Mana yang tidak masuk dalam kelompoknya?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pemrogram"
+        },
+        {
+          "key": "B",
+          "text": "Desainer"
+        },
+        {
+          "key": "C",
+          "text": "Kontraktor"
+        },
+        {
+          "key": "D",
+          "text": "Arkeologi"
+        },
+        {
+          "key": "E",
+          "text": "Pengusaha"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Kelompok nama profesi. Yang bukan merupakannamaprofesiadalaharkeologi.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #29)"
+    },
+    {
+      "id": "f2_q_30",
+      "segment_id": "verbal",
+      "subsegment": "Pengelompokan Kata",
+      "question": "Mana yang tidak masuk dalam kelompoknya?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pertempuran Surabaya"
+        },
+        {
+          "key": "B",
+          "text": "Puputan Margarana"
+        },
+        {
+          "key": "C",
+          "text": "Bandung Lautan Api"
+        },
+        {
+          "key": "D",
+          "text": "Perang Tujuh Tahun"
+        },
+        {
+          "key": "E",
+          "text": "Padri"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Kelompok nama pertempuran di Indonesia. Perang Tujuh Tahun bukan kelompok pertempuran di Indonesia, melainkan pertempuran yang terjadi di Eropa, Afrika, India, Amerika Utara, Amerika Selatan, dan Filipina. d.Padanankata(analogi) Peserta diminta mencari kata yang memiliki pasangan atau hubungan khusus dengan kata yang diberikan dalam soal. Contohnya, jika kata yang diberikan adalah \"mata\", makapadanannyaadalah\"melihat\".",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #30)"
+    },
+    {
+      "id": "f2_q_31",
+      "segment_id": "verbal",
+      "subsegment": "Analogi & Padanan Hubungan",
+      "question": "Gerbong : Lokomotif=...:...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Taksi : Pengemudi"
+        },
+        {
+          "key": "B",
+          "text": "Kereta : Masinis"
+        },
+        {
+          "key": "C",
+          "text": "Pedati : Andong"
+        },
+        {
+          "key": "D",
+          "text": "Trem : Rel"
+        },
+        {
+          "key": "E",
+          "text": "Delman : Kuda"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Dalam analogi ini, kamu harus mencari hubungan antara dua kata pertama dan menerapkannya ke pasangan kata yang lain. Gerbong dan lokomotif adalah bagian dari satu kesatuan sistem transportasi, di mana lokomotif adalah bagian yang menarik atau mendorong gerbong. Melihat hal tersebut, maka jawaban yang benar adalah Delman : Kuda. Pasalnya, kuda menarik delman sepertilokomotifmenarikgerbong.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #31)"
+    },
+    {
+      "id": "f2_q_32",
+      "segment_id": "verbal",
+      "subsegment": "Analogi & Padanan Hubungan",
+      "question": "Modern : Tradisional=...:...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Roket : Rdal Scud"
+        },
+        {
+          "key": "B",
+          "text": "Mobil : Pedati"
+        },
+        {
+          "key": "C",
+          "text": "Pesawat : Sepeda Motor"
+        },
+        {
+          "key": "D",
+          "text": "Ferrari : Fiat"
+        },
+        {
+          "key": "E",
+          "text": "TV : VCDPlayer"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Kata \"modern\" dan \"tradisional\" menunjukkan hubungan antara sesuatu yang lebih baru atau mutakhir, dan sesuatu yang lebih kuno atau lama. Jadi, kamu perlu mencari pasangan kata yang menunjukkan hubungan antara sesuatu yang modern dan sesuatu yang lebih kuno dalam konteks teknologiataupenggunaan. Dengan demikian, jawaban yang benar adalah Mobil : Pedati. Ini karena mobil adalah contoh kendaraan modern, sedangkan pedati adalah contoh kendaraan tradisional.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #32)"
+    },
+    {
+      "id": "f2_q_33",
+      "segment_id": "verbal",
+      "subsegment": "Analogi & Padanan Hubungan",
+      "question": "Gitar : Senar=...:...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Piano : Tuts"
+        },
+        {
+          "key": "B",
+          "text": "Drum : Palu"
+        },
+        {
+          "key": "C",
+          "text": "Flute : Lubang"
+        },
+        {
+          "key": "D",
+          "text": "Biola : Busur"
+        },
+        {
+          "key": "E",
+          "text": "Trompet : Katup"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Dalam analogi ini, gitar dan senar memiliki hubungan, di mana senar adalah bagian dari gitar yang menghasilkan suara ketika dimainkan. Selanjutnya, kamu perlu mencari pasangan kata yang memiliki hubungan serupa, di mana satu elemen adalah alat musik, dan elemen lainnya adalah bagian dari alat musik yang menghasilkansuara. Dengan demikian, jawaban yang paling tepat adalah Piano : Tuts. Ini karena tuts adalahbagiandaripianoyangmenghasilkan suara,samasepertisenarpadagitar.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #33)"
+    },
+    {
+      "id": "f2_q_34",
+      "segment_id": "verbal",
+      "subsegment": "Analogi & Padanan Hubungan",
+      "question": "Dokter : Pasien = Guru:…",
+      "options": [
+        {
+          "key": "A",
+          "text": "Murid"
+        },
+        {
+          "key": "B",
+          "text": "Buku"
+        },
+        {
+          "key": "C",
+          "text": "Sekolah"
+        },
+        {
+          "key": "D",
+          "text": "Pelajaran"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Seperti dokter menangani pasien, guru membimbing murid. Hubungan fungsional antaraduaprofesidanobjekkerjanya.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #34)"
+    },
+    {
+      "id": "f2_q_35",
+      "segment_id": "verbal",
+      "subsegment": "Analogi & Padanan Hubungan",
+      "question": "Pisau : Tajam = Kapas:…",
+      "options": [
+        {
+          "key": "A",
+          "text": "Putih"
+        },
+        {
+          "key": "B",
+          "text": "Lembut"
+        },
+        {
+          "key": "C",
+          "text": "Ringan"
+        },
+        {
+          "key": "D",
+          "text": "Kecil"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pisau identik dengan tajam, sedangkan kapasidentikdenganlembut.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #35)"
+    },
+    {
+      "id": "f2_q_36",
+      "segment_id": "verbal",
+      "subsegment": "Analogi & Padanan Hubungan",
+      "question": "Mobil : Jalan = Kapal:…",
+      "options": [
+        {
+          "key": "A",
+          "text": "Darat"
+        },
+        {
+          "key": "B",
+          "text": "Sungai"
+        },
+        {
+          "key": "C",
+          "text": "Laut"
+        },
+        {
+          "key": "D",
+          "text": "Dermaga"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Mobil berjalan di jalan, kapal berjalan di laut. Hubungan tempat alat transportasi digunakan.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #36)"
+    },
+    {
+      "id": "f2_q_37",
+      "segment_id": "verbal",
+      "subsegment": "Analogi & Padanan Hubungan",
+      "question": "Api : Panas = Es:…",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dingin"
+        },
+        {
+          "key": "B",
+          "text": "Beku"
+        },
+        {
+          "key": "C",
+          "text": "Cair"
+        },
+        {
+          "key": "D",
+          "text": "Air"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Api menghasilkan panas, es menghasilkan dingin.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #37)"
+    },
+    {
+      "id": "f2_q_38",
+      "segment_id": "verbal",
+      "subsegment": "Analogi & Padanan Hubungan",
+      "question": "Matahari : Siang = Bulan:…",
+      "options": [
+        {
+          "key": "A",
+          "text": "Terang"
+        },
+        {
+          "key": "B",
+          "text": "Malam"
+        },
+        {
+          "key": "C",
+          "text": "Bintang"
+        },
+        {
+          "key": "D",
+          "text": "Awan"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Matahari identik dengan siang, sedangkan bulanidentikdenganmalam.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #38)"
+    },
+    {
+      "id": "f2_q_39",
+      "segment_id": "verbal",
+      "subsegment": "Analogi & Padanan Hubungan",
+      "question": "Melati : Putih = Mawar:…",
+      "options": [
+        {
+          "key": "A",
+          "text": "Merah"
+        },
+        {
+          "key": "B",
+          "text": "Harum"
+        },
+        {
+          "key": "C",
+          "text": "Tajam"
+        },
+        {
+          "key": "D",
+          "text": "Indah"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Melati identik dengan warna putih, mawar identikdenganwarnamerah.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #39)"
+    },
+    {
+      "id": "f2_q_40",
+      "segment_id": "verbal",
+      "subsegment": "Analogi & Padanan Hubungan",
+      "question": "Pensil : Tulis = Gunting:…",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kertas"
+        },
+        {
+          "key": "B",
+          "text": "Gunting"
+        },
+        {
+          "key": "C",
+          "text": "Potong"
+        },
+        {
+          "key": "D",
+          "text": "Tajam"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Pensil digunakan untuk menulis, gunting digunakanuntukmemotong.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #40)"
+    },
+    {
+      "id": "f2_q_655",
+      "segment_id": "logika",
+      "subsegment": "Penalaran Analitis",
+      "question": "200,00 = Rp88.200,00 Keuntunganperekor = Rp2.100,00 Jumlah bebek yang dijual = Rp 88.200 : Rp 2.100 = 42ekor 42.Untuk pembelian suatu barang, Pak Bambang harus meminjam uang kepada temannya sebesar Rp 2.000.000,00 dengan perjanjian bungan sebesar 7,5%. Pak Bambang kemudian menjual barang tersebut seharga Rp 2.250.000,00. Pak Bambang kemudian mengembalikan uang pinjamannya berikut bunga.Berapakah uang kontan di tangan Pak Bambang kini setelah sebelumnya ia membeli oleh-oleh untuk keluarganya seharga Rp 30.500,00 dan ongkos parkir motorsebesar Rp2.000,00?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rp67.000,00"
+        },
+        {
+          "key": "B",
+          "text": "Rp67.500,00"
+        },
+        {
+          "key": "C",
+          "text": "Rp68.000,00"
+        },
+        {
+          "key": "D",
+          "text": "Rp68.500,00"
+        },
+        {
+          "key": "E",
+          "text": "Rp66.500,00"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Uanghasilpenjualan Rp2.250.000,00 Besarnya pinjaman = Rp 2.000.000,00 + (7,5%ᵡRp2.000.000)=Rp2.150.000,00 Hasil yang didapat = Rp 2.250.000 – Rp",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #655)"
+    },
+    {
+      "id": "f2_q_2",
+      "segment_id": "verbal",
+      "subsegment": "Sinonim (Persamaan Kata)",
+      "question": "150.000 = Rp100.000,00 Jumlah uang kontan = Rp 100.000 – (Rp 30.500+Rp2.000)=Rp67.500,00 43.Perbandingan uang Suci dan Murni adalah 3 : 7. Jika uang Murni Rp 210.000,00, maka berapakah selisih uang keduanya?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rp90.000,00"
+        },
+        {
+          "key": "B",
+          "text": "Rp190.000,00"
+        },
+        {
+          "key": "C",
+          "text": "Rp120.000,00"
+        },
+        {
+          "key": "D",
+          "text": "Rp130.000,00"
+        },
+        {
+          "key": "E",
+          "text": "Rp150.000,00"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Perbandingan uang Suci dan Murni adalah 3 : 7 dan uang Murni sejumlah Rp",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #2)"
+    },
+    {
+      "id": "f2_q_210",
+      "segment_id": "logika",
+      "subsegment": "Penalaran Analitis",
+      "question": "000,00,maka: Uang Suci = 3 : 7 × Rp 210.000,00 = Rp 90.000,00 Selisihuangkeduanyaadalah: =Rp210.000,00–Rp90.000,00 =Rp120.000,00 44.Sepotong kayu dengan panjang 4 meter beratnya 18 ons. Berapa meter panjang kayu yang mempunyai berat 3,15kilogram?",
+      "options": [
+        {
+          "key": "A",
+          "text": "6meter"
+        },
+        {
+          "key": "B",
+          "text": "6,5meter"
+        },
+        {
+          "key": "C",
+          "text": "7meter"
+        },
+        {
+          "key": "D",
+          "text": "7,5meter"
+        },
+        {
+          "key": "E",
+          "text": "7,75meter"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Kayu dengan panjang 4 meter beratnya 18 onsatausetiapmeterberatnya4,5ons. Panjang kayu yang beratnya 3,15 kilogram atau 31,5 ons adalah: 31,5 : 4,5 meter = 7 meter.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #210)"
+    },
+    {
+      "id": "f2_q_45",
+      "segment_id": "numerik",
+      "subsegment": "Angka pada Cerita",
+      "question": "Sebuah toko memiliki 200 barang. Jika 25% dari barang terjual, berapa barangyangmasihtersisa?",
+      "options": [
+        {
+          "key": "A",
+          "text": "50"
+        },
+        {
+          "key": "B",
+          "text": "100"
+        },
+        {
+          "key": "C",
+          "text": "150"
+        },
+        {
+          "key": "D",
+          "text": "175"
+        },
+        {
+          "key": "E",
+          "text": "125"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Barangterjual = 25%×200 = 50 Barangtersisa = 200–50 = 150",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #45)"
+    },
+    {
+      "id": "f2_q_46",
+      "segment_id": "numerik",
+      "subsegment": "Angka pada Cerita",
+      "question": "Sebuah perpustakaan memiliki 500 buku. Jika 20% dari buku dipinjam, berapa buku yang masih ada di perpustakaan?",
+      "options": [
+        {
+          "key": "A",
+          "text": "100"
+        },
+        {
+          "key": "B",
+          "text": "200"
+        },
+        {
+          "key": "C",
+          "text": "300"
+        },
+        {
+          "key": "D",
+          "text": "400"
+        },
+        {
+          "key": "E",
+          "text": "250"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Bukudipinjam = 20%×500 = 100 Bukutersisa = 500–100 = 400",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #46)"
+    },
+    {
+      "id": "f2_q_47",
+      "segment_id": "numerik",
+      "subsegment": "Angka pada Cerita",
+      "question": "Harga sebuah tas adalah Rp240.000. Toko memberikan diskon 25%. Berapa hargatassetelahdiskon?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rp160.000"
+        },
+        {
+          "key": "B",
+          "text": "Rp170.000"
+        },
+        {
+          "key": "C",
+          "text": "Rp180.000"
+        },
+        {
+          "key": "D",
+          "text": "Rp185.000"
+        },
+        {
+          "key": "E",
+          "text": "Rp200.000"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Diskon = 25%×240.000 = 60.000 Harga setelah diskon = 240.000 – 60.000 =",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #47)"
+    },
+    {
+      "id": "f2_q_180",
+      "segment_id": "logika",
+      "subsegment": "Penalaran Analitis",
+      "question": "000 48.Dalamsebuahkelasterdapat40siswa. Jika 60% adalah perempuan, berapa jumlahsiswalaki-lakidikelastersebut?",
+      "options": [
+        {
+          "key": "A",
+          "text": "12"
+        },
+        {
+          "key": "B",
+          "text": "14"
+        },
+        {
+          "key": "C",
+          "text": "16"
+        },
+        {
+          "key": "D",
+          "text": "18"
+        },
+        {
+          "key": "E",
+          "text": "20"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Perempuan = 60%×40 = 24 Laki-laki = 40–24 = 20",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #180)"
+    },
+    {
+      "id": "f2_q_49",
+      "segment_id": "numerik",
+      "subsegment": "Angka pada Cerita",
+      "question": "Seorang pedagang membeli 300 kg beras. Jika 3/5 bagian sudah terjual, berapakgberasyangmasihtersisa?",
+      "options": [
+        {
+          "key": "A",
+          "text": "120kg"
+        },
+        {
+          "key": "B",
+          "text": "150kg"
+        },
+        {
+          "key": "C",
+          "text": "180kg"
+        },
+        {
+          "key": "D",
+          "text": "200kg"
+        },
+        {
+          "key": "E",
+          "text": "220kg"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Berasterjual = 3/5×300 = 180 Berastersisa = 300–180 = 120kg",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #49)"
+    },
+    {
+      "id": "f2_q_50",
+      "segment_id": "numerik",
+      "subsegment": "Angka pada Cerita",
+      "question": "Sebuah mobil menempuh jarak 360 km dalam 6 jam. Berapa kecepatan rata- ratamobiltersebut?",
+      "options": [
+        {
+          "key": "A",
+          "text": "40km/jam"
+        },
+        {
+          "key": "B",
+          "text": "50km/jam"
+        },
+        {
+          "key": "C",
+          "text": "55km/jam"
+        },
+        {
+          "key": "D",
+          "text": "60km/jam"
+        },
+        {
+          "key": "E",
+          "text": "65km/jam"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Kecepatan = Jarak ÷ Waktu = 360 ÷ 6 = 60 km/jam b.Teslogikaangka Peserta harus menalar persamaan atau pola angka secara logis untuk menemukan jawaban yang benar. Contohnya, ada deret angka seperti 2, 4, 8, 16, dan peserta pun harus menentukan angka selanjutnya berdasarkanpolayangditerapkanpadaderet tersebut.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #50)"
+    },
+    {
+      "id": "f2_q_51",
+      "segment_id": "numerik",
+      "subsegment": "Logika Angka & Aljabar",
+      "question": "Jika3x+5 = 20,makaberapa nilai x ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "10"
+        },
+        {
+          "key": "C",
+          "text": "15"
+        },
+        {
+          "key": "D",
+          "text": "20"
+        },
+        {
+          "key": "E",
+          "text": "25"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "3x+5 = 20 3x = 20–5 3x = 15 x = 15÷3 = 5",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #51)"
+    },
+    {
+      "id": "f2_q_52",
+      "segment_id": "numerik",
+      "subsegment": "Logika Angka & Aljabar",
+      "question": "Jika 4x – 10 = 18, maka nilai x adalah…",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "6"
+        },
+        {
+          "key": "C",
+          "text": "7"
+        },
+        {
+          "key": "D",
+          "text": "8"
+        },
+        {
+          "key": "E",
+          "text": "9"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "4x–10 = 18 4x = 18+10 4x = 28 x = 28÷4 = 7",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #52)"
+    },
+    {
+      "id": "f2_q_53",
+      "segment_id": "numerik",
+      "subsegment": "Logika Angka & Aljabar",
+      "question": "Jikax + 2y= 20dan y= 5,makanilai xadalah…",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "6"
+        },
+        {
+          "key": "C",
+          "text": "7"
+        },
+        {
+          "key": "D",
+          "text": "8"
+        },
+        {
+          "key": "E",
+          "text": "10"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "x+2y = 20 x+2(5)=20 x+10 = 20 x = 20–10 = 10",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #53)"
+    },
+    {
+      "id": "f2_q_54",
+      "segment_id": "numerik",
+      "subsegment": "Logika Angka & Aljabar",
+      "question": "Jika 2x + 7 = 27, maka nilai x adalah…",
+      "options": [
+        {
+          "key": "A",
+          "text": "8"
+        },
+        {
+          "key": "B",
+          "text": "9"
+        },
+        {
+          "key": "C",
+          "text": "10"
+        },
+        {
+          "key": "D",
+          "text": "11"
+        },
+        {
+          "key": "E",
+          "text": "12"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "2x+7 = 27 2x = 27−7 = 20 x = 20÷2 = 10",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #54)"
+    },
+    {
+      "id": "f2_q_55",
+      "segment_id": "numerik",
+      "subsegment": "Logika Angka & Aljabar",
+      "question": "Jika5x−3 = 2x+12,makax=…",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "6"
+        },
+        {
+          "key": "E",
+          "text": "7"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "5x−3 = 2x+12 5x−2x = 12+3 3x = 15 x = 5.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #55)"
+    },
+    {
+      "id": "f2_q_56",
+      "segment_id": "numerik",
+      "subsegment": "Logika Angka & Aljabar",
+      "question": "Jika3(x−2)=21,makax=…",
+      "options": [
+        {
+          "key": "A",
+          "text": "6"
+        },
+        {
+          "key": "B",
+          "text": "7"
+        },
+        {
+          "key": "C",
+          "text": "8"
+        },
+        {
+          "key": "D",
+          "text": "9"
+        },
+        {
+          "key": "E",
+          "text": "10"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "3(x−2)=21 x−2 = 21÷3 = 7 x = 7+2 = 9",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #56)"
+    },
+    {
+      "id": "f2_q_57",
+      "segment_id": "numerik",
+      "subsegment": "Logika Angka & Aljabar",
+      "question": "Jika 2x + 3y = 22 dan y = 4, maka x =…",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "6"
+        },
+        {
+          "key": "E",
+          "text": "7"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "2x+3(4)=22 2x+12 = 22 2x = 10→x = 5",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #57)"
+    },
+    {
+      "id": "f2_q_58",
+      "segment_id": "numerik",
+      "subsegment": "Logika Angka & Aljabar",
+      "question": "Jika x/3 + 4 = 10, maka nilai x adalah…",
+      "options": [
+        {
+          "key": "A",
+          "text": "12"
+        },
+        {
+          "key": "B",
+          "text": "15"
+        },
+        {
+          "key": "C",
+          "text": "18"
+        },
+        {
+          "key": "D",
+          "text": "21"
+        },
+        {
+          "key": "E",
+          "text": "24"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "x/3+4 = 10 x/3 = 6 x = 6×3 = 18",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #58)"
+    },
+    {
+      "id": "f2_q_59",
+      "segment_id": "numerik",
+      "subsegment": "Logika Angka & Aljabar",
+      "question": "Jika7x+2 = 3x+26,makax=…",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "7"
+        },
+        {
+          "key": "E",
+          "text": "8"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "7x+2 = 3x+26 7x−3x = 26−2 4x = 24→x = 6",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #59)"
+    },
+    {
+      "id": "f2_q_60",
+      "segment_id": "numerik",
+      "subsegment": "Logika Angka & Aljabar",
+      "question": "Jika x + y = 13 dan x − y = 3, maka nilai x adalah …",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "6"
+        },
+        {
+          "key": "C",
+          "text": "7"
+        },
+        {
+          "key": "D",
+          "text": "8"
+        },
+        {
+          "key": "E",
+          "text": "9"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Diketahui: (x+y)=13 (x−y)=3 Jumlahkan kedua persamaan : (x+y)+(x−y)=13+3 2x = 16 x = 8",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #60)"
+    },
+    {
+      "id": "f2_q_3",
+      "segment_id": "verbal",
+      "subsegment": "Sinonim (Persamaan Kata)",
+      "question": "Tes Urutan Angka&Huruf Mengukur kemampuan kognitif dan pola pikir logis seseorang, seperti analisis pola, ketelitian, kecermatan, dan kecerdasan umum a.Tesserihuruf Peserta diminta melengkapi deret huruf yang rumpang dengan mengikuti pola tertentu. Misalnya, soal yang muncul adalah deret huruf A, C, E, _. Dengan demikian, jawaban yang benar untuk melengkapi deret tersebut adalah G, berdasarkan pola penambahanduahuruf. 61.B, A, C, A, D, A, E, A, F, A, G, A,....,....",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adan J"
+        },
+        {
+          "key": "B",
+          "text": "Adan H"
+        },
+        {
+          "key": "C",
+          "text": "Hdan A"
+        },
+        {
+          "key": "D",
+          "text": "Idan A"
+        },
+        {
+          "key": "E",
+          "text": "Jdan A"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "BACADAEAFAGAHA Jadi,hurufselanjutnyaadalah Hdan A.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #3)"
+    },
+    {
+      "id": "f2_q_62",
+      "segment_id": "urutan",
+      "subsegment": "Seri & Pola Huruf",
+      "question": "aba,abe,abi,....,....",
+      "options": [
+        {
+          "key": "A",
+          "text": "abmdanabq"
+        },
+        {
+          "key": "B",
+          "text": "abudanabo"
+        },
+        {
+          "key": "C",
+          "text": "abedanabz"
+        },
+        {
+          "key": "D",
+          "text": "abjdanabg"
+        },
+        {
+          "key": "E",
+          "text": "abddanabx"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "abaabeabi........ Perhatikan polanya ! a(bed)e(fgh)i(jkl)m(nop)q Maka,hurufselanjutnyaadalah: abaabeabiabmabq",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #62)"
+    },
+    {
+      "id": "f2_q_63",
+      "segment_id": "urutan",
+      "subsegment": "Seri & Pola Huruf",
+      "question": "A,G,....,S,....",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hdan N"
+        },
+        {
+          "key": "B",
+          "text": "Jdan O"
+        },
+        {
+          "key": "C",
+          "text": "Mdan Y"
+        },
+        {
+          "key": "D",
+          "text": "Ndan Q"
+        },
+        {
+          "key": "E",
+          "text": "Odan R"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "A,G,....,S,.... Perhatikan polanya : A, (bcdef) G, (hijkl) M, (nopqr) S, (tuvwx) Y Jadi,hurufselanjutnyaadalah Mdan Y.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #63)"
+    },
+    {
+      "id": "f2_q_64",
+      "segment_id": "urutan",
+      "subsegment": "Seri & Pola Huruf",
+      "question": "C,B,A,G,E,C,K,H,E,....",
+      "options": [
+        {
+          "key": "A",
+          "text": "N,K,G"
+        },
+        {
+          "key": "B",
+          "text": "O,K,G"
+        },
+        {
+          "key": "C",
+          "text": "N,L,G"
+        },
+        {
+          "key": "D",
+          "text": "M,L,G"
+        },
+        {
+          "key": "E",
+          "text": "O,K,H"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Jawaban yang tepat adalah pilihan B.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #64)"
+    },
+    {
+      "id": "f2_q_65",
+      "segment_id": "urutan",
+      "subsegment": "Seri & Pola Huruf",
+      "question": "C,D,F,l,M,....",
+      "options": [
+        {
+          "key": "A",
+          "text": "P"
+        },
+        {
+          "key": "B",
+          "text": "Q"
+        },
+        {
+          "key": "C",
+          "text": "S"
+        },
+        {
+          "key": "D",
+          "text": "T"
+        },
+        {
+          "key": "E",
+          "text": "R"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Jawaban yang tepat adalah pilihan E.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #65)"
+    },
+    {
+      "id": "f2_q_66",
+      "segment_id": "urutan",
+      "subsegment": "Seri & Pola Huruf",
+      "question": "E,G,K,M,....",
+      "options": [
+        {
+          "key": "A",
+          "text": "O"
+        },
+        {
+          "key": "B",
+          "text": "P"
+        },
+        {
+          "key": "C",
+          "text": "R"
+        },
+        {
+          "key": "D",
+          "text": "S"
+        },
+        {
+          "key": "E",
+          "text": "Q"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Jawaban yang tepat adalah pilihan E.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #66)"
+    },
+    {
+      "id": "f2_q_67",
+      "segment_id": "urutan",
+      "subsegment": "Seri & Pola Huruf",
+      "question": "FAG,GAF,HAI,IAH,....",
+      "options": [
+        {
+          "key": "A",
+          "text": "HAL"
+        },
+        {
+          "key": "B",
+          "text": "HAK"
+        },
+        {
+          "key": "C",
+          "text": "JAK"
+        },
+        {
+          "key": "D",
+          "text": "JAI"
+        },
+        {
+          "key": "E",
+          "text": "KAL"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Jawaban yang tepat adalah pilihan C.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #67)"
+    },
+    {
+      "id": "f2_q_68",
+      "segment_id": "urutan",
+      "subsegment": "Seri & Pola Huruf",
+      "question": "E,Y,H,U,K,Q,....",
+      "options": [
+        {
+          "key": "A",
+          "text": "M,M,P"
+        },
+        {
+          "key": "B",
+          "text": "N,M,Q"
+        },
+        {
+          "key": "C",
+          "text": "M,N,Q"
+        },
+        {
+          "key": "D",
+          "text": "N,M,P"
+        },
+        {
+          "key": "E",
+          "text": "N,N,P"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Jawaban yang tepat adalah pilihan B.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #68)"
+    },
+    {
+      "id": "f2_q_69",
+      "segment_id": "urutan",
+      "subsegment": "Seri & Pola Huruf",
+      "question": "E,A,F,B,G,C,H,....",
+      "options": [
+        {
+          "key": "A",
+          "text": "D"
+        },
+        {
+          "key": "B",
+          "text": "E"
+        },
+        {
+          "key": "C",
+          "text": "F"
+        },
+        {
+          "key": "D",
+          "text": "G"
+        },
+        {
+          "key": "E",
+          "text": "H"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Jawaban yang tepat adalah pilihan A.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #69)"
+    },
+    {
+      "id": "f2_q_70",
+      "segment_id": "urutan",
+      "subsegment": "Seri & Pola Huruf",
+      "question": "L,M,O,P,R,S,....",
+      "options": [
+        {
+          "key": "A",
+          "text": "S,T"
+        },
+        {
+          "key": "B",
+          "text": "T,U"
+        },
+        {
+          "key": "C",
+          "text": "U,V"
+        },
+        {
+          "key": "D",
+          "text": "T,V"
+        },
+        {
+          "key": "E",
+          "text": "V,W"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "b.Tesderet(serialangka) Pesertaharusmenemukan angka selanjutnya dalam deret angka yang memiliki pola tertentu. Misalnya, soal yang muncul adalah deret angka 1, 3, 6, 10... Dengan demikian, jawaban yang benar untuk melengkapi deret angka tersebut adalah 15, berdasarkan pola penambahanberturut-turut.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #70)"
+    },
+    {
+      "id": "f2_q_71",
+      "segment_id": "urutan",
+      "subsegment": "Seri & Pola Huruf",
+      "question": "Tentukan angka berikutnya pada deret : 3,6,12,24,…",
+      "options": [
+        {
+          "key": "A",
+          "text": "36"
+        },
+        {
+          "key": "B",
+          "text": "48"
+        },
+        {
+          "key": "C",
+          "text": "60"
+        },
+        {
+          "key": "D",
+          "text": "72"
+        },
+        {
+          "key": "E",
+          "text": "96"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Polaangkaadalahperkalian×2. 24×2 = 48",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #71)"
+    },
+    {
+      "id": "f2_q_72",
+      "segment_id": "urutan",
+      "subsegment": "Seri & Pola Huruf",
+      "question": "Tentukan angka berikutnya pada deret : 7,14,28,56,…",
+      "options": [
+        {
+          "key": "A",
+          "text": "84"
+        },
+        {
+          "key": "B",
+          "text": "96"
+        },
+        {
+          "key": "C",
+          "text": "112"
+        },
+        {
+          "key": "D",
+          "text": "120"
+        },
+        {
+          "key": "E",
+          "text": "140"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Polaangkaadalahperkalian×2. 56×2 = 112",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #72)"
+    },
+    {
+      "id": "f2_q_73",
+      "segment_id": "urutan",
+      "subsegment": "Seri & Pola Huruf",
+      "question": "Tentukan angka berikutnya pada deret : 1/2,1/4,1/8,1/16,…",
+      "options": [
+        {
+          "key": "A",
+          "text": "1/18"
+        },
+        {
+          "key": "B",
+          "text": "1/24"
+        },
+        {
+          "key": "C",
+          "text": "1/32"
+        },
+        {
+          "key": "D",
+          "text": "1/36"
+        },
+        {
+          "key": "E",
+          "text": "1/40"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Polapecahanadalahpembagian×2. 1/16÷2 = 1/32",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #73)"
+    },
+    {
+      "id": "f2_q_74",
+      "segment_id": "urutan",
+      "subsegment": "Seri & Pola Huruf",
+      "question": "Tentukan angka berikutnya pada deret : 2,6,12,20,…",
+      "options": [
+        {
+          "key": "A",
+          "text": "30"
+        },
+        {
+          "key": "B",
+          "text": "28"
+        },
+        {
+          "key": "C",
+          "text": "24"
+        },
+        {
+          "key": "D",
+          "text": "36"
+        },
+        {
+          "key": "E",
+          "text": "32"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pola angka bertambah dengan bilangan genap yang meningkat 2 setiap kali: +4, +6, +8. 20+10 = 30",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #74)"
+    },
+    {
+      "id": "f2_q_75",
+      "segment_id": "urutan",
+      "subsegment": "Seri & Pola Huruf",
+      "question": "Tentukan angka berikutnya pada deret : 2/3,4/3,8/3,16/3,…",
+      "options": [
+        {
+          "key": "A",
+          "text": "32/3"
+        },
+        {
+          "key": "B",
+          "text": "20/3"
+        },
+        {
+          "key": "C",
+          "text": "18/3"
+        },
+        {
+          "key": "D",
+          "text": "24/3"
+        },
+        {
+          "key": "E",
+          "text": "36/3"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pola pecahan adalah perkalian ×2 pada pembilang. 16/3×2 = 32/3",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #75)"
+    },
+    {
+      "id": "f2_q_76",
+      "segment_id": "urutan",
+      "subsegment": "Urutan & Deret Angka",
+      "question": "Tentukan angka berikutnya pada deret : 4,8,16,32,…",
+      "options": [
+        {
+          "key": "A",
+          "text": "48"
+        },
+        {
+          "key": "B",
+          "text": "56"
+        },
+        {
+          "key": "C",
+          "text": "60"
+        },
+        {
+          "key": "D",
+          "text": "64"
+        },
+        {
+          "key": "E",
+          "text": "72"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Polaangkaadalahperkalian×2. 32×2 = 64",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #76)"
+    },
+    {
+      "id": "f2_q_77",
+      "segment_id": "urutan",
+      "subsegment": "Urutan & Deret Angka",
+      "question": "Tentukan angka berikutnya pada deret : 9,18,36,72,…",
+      "options": [
+        {
+          "key": "A",
+          "text": "90"
+        },
+        {
+          "key": "B",
+          "text": "108"
+        },
+        {
+          "key": "C",
+          "text": "120"
+        },
+        {
+          "key": "D",
+          "text": "126"
+        },
+        {
+          "key": "E",
+          "text": "144"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pola angka adalah perkalian ×2, lalu bagi 2 secarabergantian: 9 × 2 = 18, 18 × 2 = 36, 36 × 2 = 72, 72 + 36 = 108 (atau bisa dianggap pola kelipatan 9, meningkat×2,×2,lalutambahkan36).",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #77)"
+    },
+    {
+      "id": "f2_q_78",
+      "segment_id": "urutan",
+      "subsegment": "Urutan & Deret Angka",
+      "question": "Tentukan angka berikutnya pada deret : 1/3,1/6,1/12,1/24,…",
+      "options": [
+        {
+          "key": "A",
+          "text": "1/30"
+        },
+        {
+          "key": "B",
+          "text": "1/32"
+        },
+        {
+          "key": "C",
+          "text": "1/36"
+        },
+        {
+          "key": "D",
+          "text": "1/40"
+        },
+        {
+          "key": "E",
+          "text": "1/48"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Pola pecahan adalah pembagian ×2 pada penyebut. 1/24÷2 = 1/48",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #78)"
+    },
+    {
+      "id": "f2_q_79",
+      "segment_id": "urutan",
+      "subsegment": "Urutan & Deret Angka",
+      "question": "Tentukan angka berikutnya pada deret : 4,7,11,16,22,…",
+      "options": [
+        {
+          "key": "A",
+          "text": "27"
+        },
+        {
+          "key": "B",
+          "text": "28"
+        },
+        {
+          "key": "C",
+          "text": "29"
+        },
+        {
+          "key": "D",
+          "text": "30"
+        },
+        {
+          "key": "E",
+          "text": "31"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Perbedaanantarangka=+3,+4,+5,+6… setelah22ditambah+7 = 29",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #79)"
+    },
+    {
+      "id": "f2_q_80",
+      "segment_id": "urutan",
+      "subsegment": "Urutan & Deret Angka",
+      "question": "Tentukan angka berikutnya pada deret : 5/2,10/2,20/2,40/2,…",
+      "options": [
+        {
+          "key": "A",
+          "text": "60/2"
+        },
+        {
+          "key": "B",
+          "text": "70/2"
+        },
+        {
+          "key": "C",
+          "text": "80/2"
+        },
+        {
+          "key": "D",
+          "text": "90/2"
+        },
+        {
+          "key": "E",
+          "text": "100/2"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Pola pecahan: pembilang dikali 2 setiap langkah. 40/2×2 = 80/2 c.Teshitungan(aritmatika) Peserta melakukan operasi hitungan dasar sepertipenambahan,pengurangan,perkalian, atau pembagian dengan angka yang tersedia dalamsoal.Misalnya, menghitunghasildari 25×4atau100÷5.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #80)"
+    },
+    {
+      "id": "f2_q_81",
+      "segment_id": "urutan",
+      "subsegment": "Urutan & Deret Angka",
+      "question": "(25+12)×3−40=",
+      "options": [
+        {
+          "key": "A",
+          "text": "81"
+        },
+        {
+          "key": "B",
+          "text": "80"
+        },
+        {
+          "key": "C",
+          "text": "71"
+        },
+        {
+          "key": "D",
+          "text": "68"
+        },
+        {
+          "key": "E",
+          "text": "70"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "=(25+12)×3−40 =(37)×3−40 =111−40 =71 Jadi,jawabanyangtepatadalah71.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #81)"
+    },
+    {
+      "id": "f2_q_82",
+      "segment_id": "urutan",
+      "subsegment": "Urutan & Deret Angka",
+      "question": "44+19 = 23+…",
+      "options": [
+        {
+          "key": "A",
+          "text": "38"
+        },
+        {
+          "key": "B",
+          "text": "39"
+        },
+        {
+          "key": "C",
+          "text": "41"
+        },
+        {
+          "key": "D",
+          "text": "40"
+        },
+        {
+          "key": "E",
+          "text": "42"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Pertama, kita harus menyelesaikan sisi kiri soal terlebih dahulu, yakni penambahan 44 dan19yang hasilnya 63. Nah,sekarangkita tahu bahwa nilai sisi kiri sama dengan nilai sisi kanan. Dengan demikian, kita bisa mengurangi nilai sisi kiri dengan angka terbukadisisikananuntukmencarijawaban. Dari sini, kita dapat melihat bahwa angka yang kita cari adalah 63 dikurangi 23, yakni",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #82)"
+    },
+    {
+      "id": "f2_q_83",
+      "segment_id": "urutan",
+      "subsegment": "Urutan & Deret Angka",
+      "question": "(125+75)²=…",
+      "options": [
+        {
+          "key": "A",
+          "text": "40.000"
+        },
+        {
+          "key": "B",
+          "text": "10.000"
+        },
+        {
+          "key": "C",
+          "text": "20.000"
+        },
+        {
+          "key": "D",
+          "text": "25.000"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "(125+75)²=(200)² = 200×200 = 40.000",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #83)"
+    },
+    {
+      "id": "f2_q_84",
+      "segment_id": "urutan",
+      "subsegment": "Urutan & Deret Angka",
+      "question": "0,4²=…",
+      "options": [
+        {
+          "key": "A",
+          "text": "0,08"
+        },
+        {
+          "key": "B",
+          "text": "0,16"
+        },
+        {
+          "key": "C",
+          "text": "0,4"
+        },
+        {
+          "key": "D",
+          "text": "0,014"
+        },
+        {
+          "key": "E",
+          "text": "0,064"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "0,4² = 0,4×0,4 = 0,16",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #84)"
+    },
+    {
+      "id": "f2_q_85",
+      "segment_id": "urutan",
+      "subsegment": "Urutan & Deret Angka",
+      "question": "3²+4²=…",
+      "options": [
+        {
+          "key": "A",
+          "text": "25"
+        },
+        {
+          "key": "B",
+          "text": "12"
+        },
+        {
+          "key": "C",
+          "text": "17"
+        },
+        {
+          "key": "D",
+          "text": "16"
+        },
+        {
+          "key": "E",
+          "text": "9"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "3² = 9 4² = 16 9+16 = 25",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #85)"
+    },
+    {
+      "id": "f2_q_86",
+      "segment_id": "urutan",
+      "subsegment": "Urutan & Deret Angka",
+      "question": "12%dari250=…",
+      "options": [
+        {
+          "key": "A",
+          "text": "30"
+        },
+        {
+          "key": "B",
+          "text": "25"
+        },
+        {
+          "key": "C",
+          "text": "22"
+        },
+        {
+          "key": "D",
+          "text": "28"
+        },
+        {
+          "key": "E",
+          "text": "35"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "12/100×250 = 30",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #86)"
+    },
+    {
+      "id": "f2_q_87",
+      "segment_id": "urutan",
+      "subsegment": "Urutan & Deret Angka",
+      "question": "6berapapersendari40?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0,15"
+        },
+        {
+          "key": "B",
+          "text": "15"
+        },
+        {
+          "key": "C",
+          "text": "1,5"
+        },
+        {
+          "key": "D",
+          "text": "0,6"
+        },
+        {
+          "key": "E",
+          "text": "60"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "(6÷40)×100%=15%",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #87)"
+    },
+    {
+      "id": "f2_q_88",
+      "segment_id": "urutan",
+      "subsegment": "Urutan & Deret Angka",
+      "question": "0,25×0,4=…",
+      "options": [
+        {
+          "key": "A",
+          "text": "0,01"
+        },
+        {
+          "key": "B",
+          "text": "0,1"
+        },
+        {
+          "key": "C",
+          "text": "0,4"
+        },
+        {
+          "key": "D",
+          "text": "0,12"
+        },
+        {
+          "key": "E",
+          "text": "0,125"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "0,25×0,4 = 0,125",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #88)"
+    },
+    {
+      "id": "f2_q_89",
+      "segment_id": "urutan",
+      "subsegment": "Urutan & Deret Angka",
+      "question": "(300–75)²=…",
+      "options": [
+        {
+          "key": "A",
+          "text": "5.625"
+        },
+        {
+          "key": "B",
+          "text": "50.625"
+        },
+        {
+          "key": "C",
+          "text": "75.625"
+        },
+        {
+          "key": "D",
+          "text": "225.625"
+        },
+        {
+          "key": "E",
+          "text": "300.625"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "(300–75)²=(225)² = 225×225 = 225.625",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #89)"
+    },
+    {
+      "id": "f2_q_90",
+      "segment_id": "urutan",
+      "subsegment": "Urutan & Deret Angka",
+      "question": "15%dari1.200=…",
+      "options": [
+        {
+          "key": "A",
+          "text": "120"
+        },
+        {
+          "key": "B",
+          "text": "180"
+        },
+        {
+          "key": "C",
+          "text": "160"
+        },
+        {
+          "key": "D",
+          "text": "150"
+        },
+        {
+          "key": "E",
+          "text": "100"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "15/100×1.200 = 180",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #90)"
+    },
+    {
+      "id": "f2_q_4",
+      "segment_id": "verbal",
+      "subsegment": "Sinonim (Persamaan Kata)",
+      "question": "Tes Logika Mengukur penalaran logis dan kemampuan menarikkesimpulan. a.Teslogikadiagram Peserta perlu menginterpretasikan diagram yang tersedia dan menjawab pertanyaan berdasarkaninterpretasitersebut. 91.Jika semua buku di rak adalah novel, dan Harry Potter adalah sebuah buku, makaapakesimpulanyangdapatditarik?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Semuabukuadalah Harry Potter"
+        },
+        {
+          "key": "B",
+          "text": "Semuanoveladalah Harry Potter"
+        },
+        {
+          "key": "C",
+          "text": "Semuanoveladalahbuku"
+        },
+        {
+          "key": "D",
+          "text": "Semua Harry Potteradalahnovel"
+        },
+        {
+          "key": "E",
+          "text": "Semuabukudirakadalah Harry Potter"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "novel Pembahasan: Dari premis yang diberikan, kita bisa tahu kalau semua buku di rak adalah novel. Karena Harry Potter adalah sebuah buku, maka kesimpulan yang dapat ditarik: Harry Potteradalahnovel.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #4)"
+    },
+    {
+      "id": "f2_q_92",
+      "segment_id": "logika",
+      "subsegment": "Silogisme & Logika Cerita",
+      "question": "Jika semua pensil di dalam kotak berwarna biru, dan pensil yang diambil dari kotak tersebut adalah biru, maka apakesimpulanyangbisadiambil?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Semuapensildiduniaberwarnabiru"
+        },
+        {
+          "key": "B",
+          "text": "Semua pensil yang diambil dari kotak"
+        },
+        {
+          "key": "C",
+          "text": "Semua benda berwarna biru adalah"
+        },
+        {
+          "key": "D",
+          "text": "Semua pensil di dalam kotak tersebut"
+        },
+        {
+          "key": "E",
+          "text": "Semua pensil yang berwarna biru"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "kotaktersebutberwarnabiru Pembahasan: Dari premis yang diberikan, kita tahu kalau semua pensil di dalam kotak berwarna biru. Maka, bila pensil yang diambil dari kotak tersebut adalah biru, kesimpulan yang bisa ditarik adalah bahwa semua pensil di dalam kotaktersebutberwarnabiru.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #92)"
+    },
+    {
+      "id": "f2_q_93",
+      "segment_id": "logika",
+      "subsegment": "Silogisme & Logika Cerita",
+      "question": "Semua manusia adalah makhluk hidup.Bungaadalahmakhlukhidup.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Semuabungaadalahmanusia"
+        },
+        {
+          "key": "B",
+          "text": "Beberapabungaadalahmanusia"
+        },
+        {
+          "key": "C",
+          "text": "Bungaadalahmakhlukhidup"
+        },
+        {
+          "key": "D",
+          "text": "Tidakadakesimpulan"
+        },
+        {
+          "key": "E",
+          "text": "Semuasalah"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "hidup Pembahasan: Jawaban yang paling tepat adalah bunga adalahmakhlukhidup.Daripremispertama, kita tahu jika semua manusia adalah makhlukhidup.Daripremiskedua,kitabisa menyimpulkan bahwa bunga juga adalah makhlukhidup. b.Teslogikacerita Peserta akan diminta untuk membaca sebuah cerita dan menjawab pertanyaan yang tidak secara langsung terdapat jawabannyadalamceritatersebut.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #93)"
+    },
+    {
+      "id": "f2_q_94",
+      "segment_id": "logika",
+      "subsegment": "Silogisme & Logika Cerita",
+      "question": "Jika semua kucing suka susu, dan Tom adalah seekor kucing, maka apa kesimpulanyangdapatditarik?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tomsukasusu"
+        },
+        {
+          "key": "B",
+          "text": "Semuakucingadalah Tom"
+        },
+        {
+          "key": "C",
+          "text": "Semuahewansukasusu"
+        },
+        {
+          "key": "D",
+          "text": "Semuahewanadalahkucing"
+        },
+        {
+          "key": "E",
+          "text": "Tomadalahmanusia"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Daripremisyangdiberikan,kitatahubahwa semua kucing suka susu. Karena Tom adalah seekor kucing, maka kesimpulan yang dapat ditarik adalah bahwa Tom suka susu.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #94)"
+    },
+    {
+      "id": "f2_q_95",
+      "segment_id": "logika",
+      "subsegment": "Silogisme & Logika Cerita",
+      "question": "Semua ikan hidup di air. Piranha adalah ikan.Apakahpiranhahidupdiair?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ya"
+        },
+        {
+          "key": "B",
+          "text": "Tidak"
+        },
+        {
+          "key": "C",
+          "text": "Kadang-kadang"
+        },
+        {
+          "key": "D",
+          "text": "Hanyasaatkecil"
+        },
+        {
+          "key": "E",
+          "text": "Tidakdapatdipastikan"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Karena piranhaadalahikan, dansemua ikan hidupdiair,makapiranhajugahidupdiair.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #95)"
+    },
+    {
+      "id": "f2_q_96",
+      "segment_id": "logika",
+      "subsegment": "Silogisme & Logika Cerita",
+      "question": "Semua mamalia bernapas dengan paru-paru. Paus adalah mamalia. Apakahpausbernapasdenganparu-paru?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ya"
+        },
+        {
+          "key": "B",
+          "text": "Tidak"
+        },
+        {
+          "key": "C",
+          "text": "Denganinsang"
+        },
+        {
+          "key": "D",
+          "text": "Dengankulit"
+        },
+        {
+          "key": "E",
+          "text": "Hanyasaatdidarat"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Karena paus adalah mamalia, dan semua mamalia bernapas dengan paru-paru, maka pausjugabernapasdenganparu-paru. c.Tessilogisme Peserta harus bisa menilai kebenaran dari suatu pernyataan dan kesimpulan yang diambil dari soal dan jawaban yang diberikan.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #96)"
+    },
+    {
+      "id": "f2_q_97",
+      "segment_id": "logika",
+      "subsegment": "Silogisme & Logika Cerita",
+      "question": "Semua mamalia menyusui anak mereka.Kucingadalahmamalia.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tidakadakesimpulan"
+        },
+        {
+          "key": "B",
+          "text": "Kucingmenyusuianaknya"
+        },
+        {
+          "key": "C",
+          "text": "Semuakucingmenyusuianaknya"
+        },
+        {
+          "key": "D",
+          "text": "Beberapakucingmenyusuianaknya"
+        },
+        {
+          "key": "E",
+          "text": "Semuasalah"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Jawaban yang benar adalah kucing menyusui anaknya. Dari premis pertama, kita tahu bahwa semua mamalia menyusui anak mereka. Karena kucing adalah mamalia, maka kucing juga menyusui anaknya.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #97)"
+    },
+    {
+      "id": "f2_q_98",
+      "segment_id": "logika",
+      "subsegment": "Silogisme & Logika Cerita",
+      "question": "Semuaburungbisaterbang.Sebagian hewan yang bisa terbang adalah burung. Jadi....",
+      "options": [
+        {
+          "key": "A",
+          "text": "Semuahewanyangbisaterbangadalah"
+        },
+        {
+          "key": "B",
+          "text": "Sebagian burung adalah hewan yang"
+        },
+        {
+          "key": "C",
+          "text": "Hewan yang tidak bisa terbang bukan"
+        },
+        {
+          "key": "D",
+          "text": "Sebagian hewan yang bisa terbang"
+        },
+        {
+          "key": "E",
+          "text": "Semua hewan adalah burung yang bisa"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "terbangadalahburung Pembahasan: Dari pernyataan \"Semua burung bisa terbang\" dan \"Sebagian hewan yang bisa terbang adalah burung\", kita dapat menyimpulkan bahwa semua hewan yang bisaterbangadalahburung. Olehkarena itu, jawabanyang paling tepat adalah :A. d.Teslogikaumum Peserta perlu menalar secara cepat soal Manakah pernyataan yangsifatnyalogis.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #98)"
+    },
+    {
+      "id": "f2_q_99",
+      "segment_id": "logika",
+      "subsegment": "Silogisme & Logika Cerita",
+      "question": "Jikahujanturun,makajalananbasah. Hariinihujanturun.Apakesimpulannya?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Jalanantetapkering"
+        },
+        {
+          "key": "B",
+          "text": "Jalananbasah"
+        },
+        {
+          "key": "C",
+          "text": "Tidak ada hubungan antara hujan dan"
+        },
+        {
+          "key": "D",
+          "text": "Semuajalananpastibanjir"
+        },
+        {
+          "key": "E",
+          "text": "Tidakdapatdipastikan"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Daripremis \"Jika hujan turun, maka jalanan basah\", dan faktanya hari ini hujan turun, makakesimpulanlogisadalahjalananbasah.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #99)"
+    },
+    {
+      "id": "f2_q_100",
+      "segment_id": "logika",
+      "subsegment": "Silogisme & Logika Cerita",
+      "question": "Semua orang yang rajin belajar akan lulus ujian. Andi rajin belajar. Apa kesimpulannya?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Andipastilulusujian"
+        },
+        {
+          "key": "B",
+          "text": "Anditidaklulusujian"
+        },
+        {
+          "key": "C",
+          "text": "Semuaorangpastilulusujian"
+        },
+        {
+          "key": "D",
+          "text": "Hanyasebagianoranglulusujian"
+        },
+        {
+          "key": "E",
+          "text": "Tidakadakesimpulan"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Daripremis\"Semuaorangyangrajinbelajar akan lulus ujian\", dan diketahui Andi rajin belajar, maka kesimpulan logis adalah Andi pastilulusujian.",
+      "source": "Kisi-Kisi Psikotes MT Paragon (Soal #100)"
+    },
+    {
+      "id": "epps_q_1",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya suka bekerja tanpa tekanan dan\ndeadline."
+        },
+        {
+          "key": "B",
+          "text": "Saya ingin mengasuh anak yatim yang\nterlantar di jalan."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #1)"
+    },
+    {
+      "id": "epps_q_2",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya senang menjamu tamu yang datang ke\nrumah."
+        },
+        {
+          "key": "B",
+          "text": "Saya berusaha mengerjakan tugas dengan\nsemangat."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #2)"
+    },
+    {
+      "id": "epps_q_3",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya suka tampil di depan panggung."
+        },
+        {
+          "key": "B",
+          "text": "Saya lebih memilih berkata jujur meskipun\nharus dibenci."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #3)"
+    },
+    {
+      "id": "epps_q_4",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya menghargai pendapat orang lain\nketika berdiskusi."
+        },
+        {
+          "key": "B",
+          "text": "Saya ingin menjadi orang yang bebas\nmelakukan apa saja."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #4)"
+    },
+    {
+      "id": "epps_q_5",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya ingin setiap pekerjaan diselesaikan\ndengan teliti dan rapi."
+        },
+        {
+          "key": "B",
+          "text": "Saya ingin mengetahui pendapat orang lain\nterhadap diri saya."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #5)"
+    },
+    {
+      "id": "epps_q_6",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya senang mendapat pujian dari atasan."
+        },
+        {
+          "key": "B",
+          "text": "Saya menerima keputusan hasil rapat dengan\nlapang dada meskipun tidak setuju."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #6)"
+    },
+    {
+      "id": "epps_q_7",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya memahami masalah pribadi yang\nsedang dihadapi."
+        },
+        {
+          "key": "B",
+          "text": "Saya mendengarkan pendapat orang lain\nmeskipun berbeda pendapat dengan diri sendiri"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #7)"
+    },
+    {
+      "id": "epps_q_8",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya senang memiliki banyak sahabat."
+        },
+        {
+          "key": "B",
+          "text": "Saya lebih suka melanggar aturan agar\npekerjaan selesai tepat waktu."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #8)"
+    },
+    {
+      "id": "epps_q_9",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya senang diberi pujian oleh atasan."
+        },
+        {
+          "key": "B",
+          "text": "Saya senang berbicara santun dengan orang\nyang lebih tua maupun lebih muda."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #9)"
+    },
+    {
+      "id": "epps_q_10",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya senang dianggap pintar oleh orang\nlain."
+        },
+        {
+          "key": "B",
+          "text": "Saya menyimpan barang-barang dengan rapi."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #10)"
+    },
+    {
+      "id": "epps_q_11",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya senang ikut kegiatan sosial yang\nmelibatkan lawan jenis."
+        },
+        {
+          "key": "B",
+          "text": "Saya membagi tugas dengan adil kepada\nanggota saya."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #11)"
+    },
+    {
+      "id": "epps_q_12",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya mudah memaafkan orang yang\nmenyakiti hati."
+        },
+        {
+          "key": "B",
+          "text": "Saya senang ikut kegiatan sosial yang\nmelibatkan lawan jenis."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #12)"
+    },
+    {
+      "id": "epps_q_13",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya membagi pekerjaan berdasarkan\nkemampuan staf saya."
+        },
+        {
+          "key": "B",
+          "text": "Saya senang dipercaya oleh atasan."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #13)"
+    },
+    {
+      "id": "epps_q_14",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya senang mengajarkan teman yang\ntidak mengerti sesuatu."
+        },
+        {
+          "key": "B",
+          "text": "Saya lebih sering mengintrospeksi diri."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #14)"
+    },
+    {
+      "id": "epps_q_15",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya senang berbagi cerita tentang\npengalaman yang membahayakan."
+        },
+        {
+          "key": "B",
+          "text": "Saya membuat rencana sebelum mengerjakan\nsegala tugas"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #15)"
+    },
+    {
+      "id": "epps_q_16",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya senang makan di tempat-tempat\nyang belum pernah didatangi."
+        },
+        {
+          "key": "B",
+          "text": "Saya membiarkan anggota kelompok untuk\nberdiskusi menyelesaikan masalah."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #16)"
+    },
+    {
+      "id": "epps_q_17",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya senang mengerjakan tugas dengan\nbersama-sama."
+        },
+        {
+          "key": "B",
+          "text": "Saya ingin berkata jujur jika memang ada\nyang salah."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #17)"
+    },
+    {
+      "id": "epps_q_18",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya lebih sering mengintropeksi diri."
+        },
+        {
+          "key": "B",
+          "text": "Saya senang menghabiskan waktu luang\ndengan berkegiatan sosial."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #18)"
+    },
+    {
+      "id": "epps_q_19",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya senang berbicara tentang diri sendiri\nkepada teman-teman."
+        },
+        {
+          "key": "B",
+          "text": "Saya suka menyenangkan orang lain."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #19)"
+    },
+    {
+      "id": "epps_q_20",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya mendengarkan pendapat peserta\nrapat sebelum memutuskan hasil rapat."
+        },
+        {
+          "key": "B",
+          "text": "Saya berani berbicara di depan banyak orang."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #20)"
+    },
+    {
+      "id": "epps_q_21",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya berani berbicara di depan banyak\norang."
+        },
+        {
+          "key": "B",
+          "text": "Saya senang menyelesaikan pekerjaan yang\ntelah dimulai."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #21)"
+    },
+    {
+      "id": "epps_q_22",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya berani mengungkapkan kebenaran\nmeskipun dijauhi banyak orang."
+        },
+        {
+          "key": "B",
+          "text": "Saya senang berbagi pengalaman yang\nmembahayakan kepada teman-teman."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #22)"
+    },
+    {
+      "id": "epps_q_23",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya senang dipercaya oleh atasan."
+        },
+        {
+          "key": "B",
+          "text": "Saya mudah memaafkan orang yang\nmenyakiti hati."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #23)"
+    },
+    {
+      "id": "epps_q_24",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya senang menerima tanggung jawab."
+        },
+        {
+          "key": "B",
+          "text": "Saya membuka ruang diskusi untuk\nmenyelesaikan masalah antar-anggota\nkelompok"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #24)"
+    },
+    {
+      "id": "epps_q_25",
+      "segment_id": "kepribadian",
+      "subsegment": "Tes Kepribadian & Preferensi Kerja (EPPS)",
+      "question": "Pilihlah salah satu pernyataan di bawah ini yang paling mencerminkan preferensi dan gaya kerja alami Anda di lingkungan Paragon:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Saya suka mengikuti aturan di kantor."
+        },
+        {
+          "key": "B",
+          "text": "Saya senang mengerjakan pekerjaan yang\nrutin."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pada tes kepribadian EPPS Paragon MT & Scholarship, tidak ada jawaban mutlak benar atau salah. Jawaban Anda dinilai berdasarkan konsistensi, dorongan berprestasi (achievement), ketekunan (endurance), keteraturan (order), dan keselarasan dengan 6 Core Values Paragon.",
+      "source": "Tes Kepribadian EPPS MT Paragon (Item #25)"
+    },
+    {
+      "id": "tpa_q_1",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Analogi & Padanan Hubungan Kata",
+      "question": "S inga: Rusa = Antiseptik: …",
+      "options": [
+        {
+          "key": "A",
+          "text": "Obat"
+        },
+        {
+          "key": "B",
+          "text": "Hama"
+        },
+        {
+          "key": "C",
+          "text": "Penyakit"
+        },
+        {
+          "key": "D",
+          "text": "Kuman"
+        },
+        {
+          "key": "E",
+          "text": "Petani"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "S inga membunuh rusa. Perbandingannya adalah \nantiseptik membunuh kuman.",
+      "source": "Simulasi 2 TPA Paragon (Soal #1)"
+    },
+    {
+      "id": "tpa_q_2",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Analogi & Padanan Hubungan Kata",
+      "question": "M akan: Lapar = Lampu: …",
+      "options": [
+        {
+          "key": "A",
+          "text": "Padang"
+        },
+        {
+          "key": "B",
+          "text": "Pijar"
+        },
+        {
+          "key": "C",
+          "text": "Terang"
+        },
+        {
+          "key": "D",
+          "text": "Listrik"
+        },
+        {
+          "key": "E",
+          "text": "Gelap"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Jawaban yang tepat adalah pilihan D.",
+      "source": "Simulasi 2 TPA Paragon (Soal #2)"
+    },
+    {
+      "id": "tpa_q_3",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Analogi & Padanan Hubungan Kata",
+      "question": "M atahari: Terik = Bulan: …",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gulita"
+        },
+        {
+          "key": "B",
+          "text": "Gerhana"
+        },
+        {
+          "key": "C",
+          "text": "Gerhana"
+        },
+        {
+          "key": "D",
+          "text": "Benderang"
+        },
+        {
+          "key": "E",
+          "text": "Bintang"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "M atahari bersinar dengan terik. Bulan bersinar \ndengan benderang.",
+      "source": "Simulasi 2 TPA Paragon (Soal #3)"
+    },
+    {
+      "id": "tpa_q_4",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Analogi & Padanan Hubungan Kata",
+      "question": "Keuntungan: Penjualan = Kemasyhuran: …",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pembelian"
+        },
+        {
+          "key": "B",
+          "text": "Penipuan"
+        },
+        {
+          "key": "C",
+          "text": "Keberanian"
+        },
+        {
+          "key": "D",
+          "text": "Jenderal"
+        },
+        {
+          "key": "E",
+          "text": "Kesalahan"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Keuntungan merupakan akibat dari penjualan. Ke-\nmasyuran akibat dari keberanian.",
+      "source": "Simulasi 2 TPA Paragon (Soal #4)"
+    },
+    {
+      "id": "tpa_q_5",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Analogi & Padanan Hubungan Kata",
+      "question": "BUGIL: PAKAIAN",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gundul : Hutan"
+        },
+        {
+          "key": "B",
+          "text": "Bulu : Cabut"
+        },
+        {
+          "key": "C",
+          "text": "Botak : Rambut"
+        },
+        {
+          "key": "D",
+          "text": "M ogok : M obil"
+        },
+        {
+          "key": "E",
+          "text": "Hutan : Banjir"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Bugil artinya tidak berpakaian. Botak artinya ti dak \nberambut.",
+      "source": "Simulasi 2 TPA Paragon (Soal #5)"
+    },
+    {
+      "id": "tpa_q_6",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Analogi & Padanan Hubungan Kata",
+      "question": "PES AWAT TERBANG: KABIN",
+      "options": [
+        {
+          "key": "A",
+          "text": "Laci : M eja"
+        },
+        {
+          "key": "B",
+          "text": "Gedung : Eskalator"
+        },
+        {
+          "key": "C",
+          "text": "Rumah : Ruangan"
+        },
+        {
+          "key": "D",
+          "text": "Roda : Kursi"
+        },
+        {
+          "key": "E",
+          "text": "M otor : Bengkel"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Pesawat terbang memiliki kabin. Perbandingan \nyang sepadan adalah rumah memiliki ruangan.",
+      "source": "Simulasi 2 TPA Paragon (Soal #6)"
+    },
+    {
+      "id": "tpa_q_7",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Analogi & Padanan Hubungan Kata",
+      "question": "M ENDOBRAK: M AS UK",
+      "options": [
+        {
+          "key": "A",
+          "text": "M erampok : Uang"
+        },
+        {
+          "key": "B",
+          "text": "Telepon : Telegram"
+        },
+        {
+          "key": "C",
+          "text": "M engaduk : semen"
+        },
+        {
+          "key": "D",
+          "text": "Rapat : Hadirin"
+        },
+        {
+          "key": "E",
+          "text": "M enyela : Bicara"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "M endobrak (pintu) agar bisa masuk. M enyela \n(pembicaraan) untuk bicara (berbicara).",
+      "source": "Simulasi 2 TPA Paragon (Soal #7)"
+    },
+    {
+      "id": "tpa_q_8",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Analogi & Padanan Hubungan Kata",
+      "question": "M OBIL: BENS IN =",
+      "options": [
+        {
+          "key": "A",
+          "text": "S api : S usu"
+        },
+        {
+          "key": "B",
+          "text": "Pesawat terbang : Propelar"
+        },
+        {
+          "key": "C",
+          "text": "M anusia : M akanan"
+        },
+        {
+          "key": "D",
+          "text": "Penyakit : Virus"
+        },
+        {
+          "key": "E",
+          "text": "Obat : Dokter"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Untuk memperoleh energi maka mobil mem-\nbutuhkan bensin. Kata-kata yang mempunyai \npadanan hubungan dengan soal adalah M anusia: \nM akanan, karena untuk memperoleh energi maka \nmanusia membutuhkan makanan .",
+      "source": "Simulasi 2 TPA Paragon (Soal #8)"
+    },
+    {
+      "id": "tpa_q_9",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Analogi & Padanan Hubungan Kata",
+      "question": "KOM PONIS : S IM PONI =",
+      "options": [
+        {
+          "key": "A",
+          "text": "Aktor : Komedi"
+        },
+        {
+          "key": "B",
+          "text": "Konduktor : Orkestra"
+        },
+        {
+          "key": "C",
+          "text": "S utradara : Film"
+        },
+        {
+          "key": "D",
+          "text": "Penyair : S oneta"
+        },
+        {
+          "key": "E",
+          "text": "Lucu : Pelawak"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Komponis adalah seorang insan seni yang \nmenciptakan simponi . Kata-kata yang mempunyai \npadanan hubungan dengan soal adalah Sutradara: \nFilm, karena sutradara adalah seorang insan seni \nyang menciptakan film .",
+      "source": "Simulasi 2 TPA Paragon (Soal #9)"
+    },
+    {
+      "id": "tpa_q_10",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Analogi & Padanan Hubungan Kata",
+      "question": "KARDIOLOGI: JANTUNG =",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pathologi : Peta"
+        },
+        {
+          "key": "B",
+          "text": "Farmakologi : Obat-obatan"
+        },
+        {
+          "key": "C",
+          "text": "Akuntansi : Perusahaan"
+        },
+        {
+          "key": "D",
+          "text": "Biologi : Ilmu"
+        },
+        {
+          "key": "E",
+          "text": "Fisika : Fermentasi"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Kardiologi adalah sebuah ilmu yang mempelajari \ntentang jantung . Kata-kata yang mempunyai \npadanan hubungan dengan soal adalah \nFarmakologi: Obat-obatan , karena farmakologi \nadalah sebuah ilmu yang mempelajari tentang \nobat-obatan .",
+      "source": "Simulasi 2 TPA Paragon (Soal #10)"
+    },
+    {
+      "id": "tpa_q_11",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Silogisme & Logika Analitik",
+      "question": "S emua kendaraan berbahan bakar bensin. Tak sebuah motor pun berbahan bakar bensin. J adi:",
+      "options": [
+        {
+          "key": "A",
+          "text": "S ebuah kendaraan adalah motor"
+        },
+        {
+          "key": "B",
+          "text": "M otor adalah kendaraan berbahan bakar"
+        },
+        {
+          "key": "C",
+          "text": "Kendaraan bermotor tidak memerlukan bensin"
+        },
+        {
+          "key": "D",
+          "text": "Kendaraan berbahan bakar bensin adalah"
+        },
+        {
+          "key": "E",
+          "text": "Tak ada sebuah motor pun adalah kendaraan"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "S emua kendaraan berbahan bakar bensin, motor \ntidak berbahan bakar bensin. Tak sebuah motor \npun adalah kendaraan berbahan bakar bensin.",
+      "source": "Simulasi 2 TPA Paragon (Soal #11)"
+    },
+    {
+      "id": "tpa_q_12",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Silogisme & Logika Analitik",
+      "question": "Harga paket 1 lebih murah dibanding paket 2; paket 3 lebih mahal dari paket 2. M anakah pernyataan yang benar?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Paket 1 lebih mahal dibanding paket 3"
+        },
+        {
+          "key": "B",
+          "text": "Paket 3 lebih mahal dibanding paket 1"
+        },
+        {
+          "key": "C",
+          "text": "Harga paket 1 ditambah harga paket 2 lebih"
+        },
+        {
+          "key": "D",
+          "text": "Harga paket 2 lebih kecil di banding rata-rata"
+        },
+        {
+          "key": "E",
+          "text": "Tidak ada kesimpulan yang tepat"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Pembahasan berdasarkan kunci jawaban simulasi TPA Paragon.",
+      "source": "Simulasi 2 TPA Paragon (Soal #12)"
+    },
+    {
+      "id": "tpa_q_13",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Silogisme & Logika Analitik",
+      "question": "S emua hewan adalah makhluk hidup. S emua makhluk hidup akan mati. Kucing adalah hewan yang mempunyai ekor. Tidak semua hewan berekor dapat memanjat. Jadi:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kucing dapat memanjat pohon"
+        },
+        {
+          "key": "B",
+          "text": "Kucing tidak dapat memanjat pohon"
+        },
+        {
+          "key": "C",
+          "text": "Kucing tidak akan mati"
+        },
+        {
+          "key": "D",
+          "text": "Kucing akan mati"
+        },
+        {
+          "key": "E",
+          "text": "S emua jawaban salah"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Kucing adalah hewan sedangkan hewan adalah \nmakhluk hidup dan makhluk hidup akan mati. \nKucing akan mati.",
+      "source": "Simulasi 2 TPA Paragon (Soal #13)"
+    },
+    {
+      "id": "tpa_q_14",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Silogisme & Logika Analitik",
+      "question": "Lampu neon lebih terang daripada lampu pijar. Lampu neon impor lebih mahal dari lampu neon produksi dalam negeri. Lampu yang lebih te-rang atau lebih tahan lama harganya lebih mahal. Jadi:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lampu neon buatan dalam negeri lebih murah"
+        },
+        {
+          "key": "B",
+          "text": "Lampu neon lebih mahal dari lampu pijar"
+        },
+        {
+          "key": "C",
+          "text": "Lampi pijar impor lebih mahal dari lampu pijar"
+        },
+        {
+          "key": "D",
+          "text": "Lampu neon produksi dalam negeri lebih"
+        },
+        {
+          "key": "E",
+          "text": "Tidak ada jawaban yang memenuhi"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Lampu neon lebih mahal daripada lampu pijar.",
+      "source": "Simulasi 2 TPA Paragon (Soal #14)"
+    },
+    {
+      "id": "tpa_q_15",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Silogisme & Logika Analitik",
+      "question": "Barang pecah belah adalah mudah pecah bila jatu h. Barang-barang yang tidak pecah bila jatuh tidak lag i digolongkan dalam kategori barang pecah belah. Gelas buatan Indokaca tidak dapat pecah bila jatuh. Jadi:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gelas produksi Indokaca termasuk barang"
+        },
+        {
+          "key": "B",
+          "text": "Gelas produksi Indokaca tidak dapat pecah"
+        },
+        {
+          "key": "C",
+          "text": "Gelas produksi Indokaca tidak termasuk"
+        },
+        {
+          "key": "D",
+          "text": "Gelas produksi Indokaca tidak mungkin pecah"
+        },
+        {
+          "key": "E",
+          "text": "Tidak dapat ditarik kesimpulan"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Gelas produksi Indokaca tidak termasuk barang \npecah-belah.",
+      "source": "Simulasi 2 TPA Paragon (Soal #15)"
+    },
+    {
+      "id": "tpa_q_16",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Silogisme & Logika Analitik",
+      "question": "Indra adalah orang desa. Indra bekerja sebagai buruh di pabrik. Banyak buruh-buruh pabrik yang malas. Bonar adalah teman Indra. Jadi:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Indra itu malas"
+        },
+        {
+          "key": "B",
+          "text": "Bonar itu malas"
+        },
+        {
+          "key": "C",
+          "text": "Teman-teman Indra semuanya malas"
+        },
+        {
+          "key": "D",
+          "text": "Bonar mungkin sedesa dengan Indra"
+        },
+        {
+          "key": "E",
+          "text": "Indra dan Bonar buruh pabrik yang malas"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Bonar mungkin sedesa dengan Indra.",
+      "source": "Simulasi 2 TPA Paragon (Soal #16)"
+    },
+    {
+      "id": "tpa_q_17",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Silogisme & Logika Analitik",
+      "question": "Anak perempuan yang masih kecil selalu diberi boneka oleh ibu mereka. Rahmawati mempunyai banyak boneka di rumahnya. Kakak dan adik Rahma tidak menyukai boneka. Jadi:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kakak dan adik Rahma semuanya laki-laki"
+        },
+        {
+          "key": "B",
+          "text": "S emua boneka Rahma adalah pemberian"
+        },
+        {
+          "key": "C",
+          "text": "Rahma adalah anak yang paling disayang"
+        },
+        {
+          "key": "D",
+          "text": "Anak perempuan tidak hanya menyukai"
+        },
+        {
+          "key": "E",
+          "text": "Tidak dapat ditarik kesimpulan"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Anak perempuan tidak hanya menyukai boneka.",
+      "source": "Simulasi 2 TPA Paragon (Soal #17)"
+    },
+    {
+      "id": "tpa_q_19",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Silogisme & Logika Analitik",
+      "question": "S emua binatang adalah makhluk hidup. S emua makhluk hidup akan mati. Tidak semua bina-tang berekor dapat memanjat. Kuda adalah binatang berekor. Kesimpulan:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kuda tidak mungkin mati"
+        },
+        {
+          "key": "B",
+          "text": "Tidak semua binatang yang berekor mati"
+        },
+        {
+          "key": "C",
+          "text": "Kuda akan mati"
+        },
+        {
+          "key": "D",
+          "text": "Kuda bukan binatang"
+        },
+        {
+          "key": "E",
+          "text": "Tidak dapat ditarik kesimpulan"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Dari soal, dapat ditarik kesimpulan bahwa: Kuda \nadalah makhluk hidup; Kuda adalah binatang. Jika \nsemua makhluk hidup akan mati (pernyataan ke-2), \nmaka kuda akan mati.",
+      "source": "Simulasi 2 TPA Paragon (Soal #19)"
+    },
+    {
+      "id": "tpa_q_20",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Silogisme & Logika Analitik",
+      "question": "S iswa yang pandai dalam matematika lebih mudah belajar bahasa. Orang yang tinggal di negara asing lebih lancar dalam bahasa yang dipakai di negara tersebut. Rianto belajar bahasa Inggris. Kesimpulan:",
+      "options": [
+        {
+          "key": "A",
+          "text": "M ungkin Rianto tidak bisa berbicara"
+        },
+        {
+          "key": "B",
+          "text": "M ungkin Rianto tidak pernah tinggal di luar"
+        },
+        {
+          "key": "C",
+          "text": "Tidak mungkin Rianto pernah tinggal di luar"
+        },
+        {
+          "key": "D",
+          "text": "Tidak mungkin Rianto pandai dalam"
+        },
+        {
+          "key": "E",
+          "text": "Tidak dapat ditarik kesimpulan"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "M ungkin Rianto tidak pernah tinggal di luar ne-\ngeri. Di dalam soal disebutkan bahwa orang yang \ntinggal di negeri asing lebih lancar dalam bahasa \nyang dipakai negara tersebut. Namun tidak ada \npernyataan yang menyebutkan bahwa orang yang \ntidak pernah tinggal di negeri asing tidak bisa \nberbahasa asing.",
+      "source": "Simulasi 2 TPA Paragon (Soal #20)"
+    },
+    {
+      "id": "tpa_q_21",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Silogisme & Logika Analitik",
+      "question": "Fredy, Cindy, dan S andy masing-masing memiliki dua ekor hewan piaraan. S alah satu di antara mereka tidak memelihara anjing. Cindy satu­satunya yang memelihara kucing. S andy memelihara anjing. Fredy dan Cindy masing-masing memelihara kelinci. S iapakah yang memelihara kura-kura?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fredy dan S andy"
+        },
+        {
+          "key": "B",
+          "text": "Cindy dan Fredy"
+        },
+        {
+          "key": "C",
+          "text": "Fredy"
+        },
+        {
+          "key": "D",
+          "text": "Cindy"
+        },
+        {
+          "key": "E",
+          "text": "S andy"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Jika masing-masing memelihara dua ekor bina-\ntang, dengan komposisi: salah satunya tidak \nmemelihara anjing (berarti yang memelihara anjing \nada 2 orang); Cindy satu-satunya yang memelihara \nkucing; S andy memelihara anjing; Fredy dan Cindy \nmasing-masing memelihara kelinci, maka \nrinciannya dapat disusun menjadi: \n- Cindy memelihara: kucing, kelinci \n- Sandy memelihara: anjing, kura-kura \n- Fredy memelihara: kelinci, anjing",
+      "source": "Simulasi 2 TPA Paragon (Soal #21)"
+    },
+    {
+      "id": "tpa_q_22",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Silogisme & Logika Analitik",
+      "question": "S ementara sarjana adalah dosen. S emua dosen harus meneliti. Jadi:",
+      "options": [
+        {
+          "key": "A",
+          "text": "S ementara sarjana bukan dosen"
+        },
+        {
+          "key": "B",
+          "text": "S ementara peneliti bukan dosen"
+        },
+        {
+          "key": "C",
+          "text": "S ementara peneliti adalah dosen"
+        },
+        {
+          "key": "D",
+          "text": "S ementara dosen tidak meneliti"
+        },
+        {
+          "key": "E",
+          "text": "Tidak ada jawaban yang tepat"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Jika sementara sarjana merupakan dosen, maka \nsementara sarjana lainnya bukan dosen.",
+      "source": "Simulasi 2 TPA Paragon (Soal #22)"
+    },
+    {
+      "id": "tpa_q_23",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Silogisme & Logika Analitik",
+      "question": "S emua dosen adalah pegawai negeri. S ebagian dosen adalah akuntan. Yang tidak cocok dengan pernyataan-pernyataan tersebut adalah:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ada pegawai negeri yang merupakan seorang"
+        },
+        {
+          "key": "B",
+          "text": "S ebagian akuntan adalah pegawai negeri"
+        },
+        {
+          "key": "C",
+          "text": "S ebagian pegawai negeri adalah dosen"
+        },
+        {
+          "key": "D",
+          "text": "S ebagian akuntan adalah dosen"
+        },
+        {
+          "key": "E",
+          "text": "S emua akuntan adalah pegawai negeri"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Pilihan E salah, karena tidak semua akuntan \npegawai negeri. Yang benar adalah hanya se-\nbagian akuntan yang pegawai negeri (pilihan B).",
+      "source": "Simulasi 2 TPA Paragon (Soal #23)"
+    },
+    {
+      "id": "tpa_q_24",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Silogisme & Logika Analitik",
+      "question": "Jono dan Jacky memiliki uang lebih banyak da- ripada Fredy. S ementara itu, Chrisna memiliki uang lebih sedikit daripada Fredy. Peter memiliki uang lebih banyak daripada Fredy. S iapakah yang memiliki uang paling sedikit?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fredy dan Peter"
+        },
+        {
+          "key": "B",
+          "text": "Chrisna"
+        },
+        {
+          "key": "C",
+          "text": "Jono"
+        },
+        {
+          "key": "D",
+          "text": "Jacky"
+        },
+        {
+          "key": "E",
+          "text": "Peter"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Jika Jono dan Jacky memiliki uang lebih banyak \ndaripada Fredy; Chrisna memiliki uang lebih sedikit \ndaripada Fredy; Peter memiliki uang lebih banyak \ndaripada Fredy; maka dari keten-tuan itu dapat \ndibuat susunan: \nJono dan Jacky > Fredy < Peter → dari susunan ini, \nFredy memiliki uang paling sedikit (belum \ntermasuk Chrisna). \nFredy > Chrisna → Chrisna memiliki uang lebih \nsedikit dari Fredy. Jadi, yang memiliki uang pa-lin g \nsedikit adalah Chrisna.",
+      "source": "Simulasi 2 TPA Paragon (Soal #24)"
+    },
+    {
+      "id": "tpa_q_25",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Silogisme & Logika Analitik",
+      "question": "S anti bangun kesiangan. Karena itu, ia tidak ma kan pagi. Ia menyadari bahwa ia terlambat masuk sekolah, sehingga ia lari sekencang mungkin dan tidak melihat ada lubang dan kakinya patah. Ia dibawa ke rumah sakit, ia dijenguk teman- temannya yang ingin tahu mengapa S anti bangun sedemikian terlambat. Kesimpulan apakah yang dapat diambil dari cerita di atas?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Karena S anti tidak makan pagi, maka ia"
+        },
+        {
+          "key": "B",
+          "text": "Teman-teman S anti menjenguknya di rumah"
+        },
+        {
+          "key": "C",
+          "text": "S anti tidak melihat lubang karena ia bangun"
+        },
+        {
+          "key": "D",
+          "text": "S anti mengalami patah kaki karena ia"
+        },
+        {
+          "key": "E",
+          "text": "S emua pilihan jawaban salah"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Teman-teman S anti menjenguknya di rumah sakit \nkarena ingin tahu mengapa S anti terlambat ke \nsekolah. Hanya pilihan ini yang paling masuk akal, \nkarena pilihan yang lain tidak sesuai logika.",
+      "source": "Simulasi 2 TPA Paragon (Soal #25)"
+    },
+    {
+      "id": "tpa_q_26",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Deret Angka & Aljabar Aritmatika",
+      "question": "1 1 3 3, , , 1, 1 , xx.... 2 4 4 4",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "13"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "3+2"
+        },
+        {
+          "key": "E",
+          "text": "5+2"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Pola: 1 1 3 3 1 1 xx\n2 4 4 4\n \n 1+\n4\n 1+\n4\n 1+\n4\n 1+\n4\n 1+\n4\n \n3 1xx = 1 + \n4 4\n7 1 8 = + = = 2\n4 4 4",
+      "source": "Simulasi 2 TPA Paragon (Soal #26)"
+    },
+    {
+      "id": "tpa_q_27",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Deret Angka & Aljabar Aritmatika",
+      "question": "S uatu seri angka terdiri dari 4 10 8 14 12 18, angka selanjutnya adalah:",
+      "options": [
+        {
+          "key": "A",
+          "text": "14"
+        },
+        {
+          "key": "B",
+          "text": "16"
+        },
+        {
+          "key": "C",
+          "text": "18"
+        },
+        {
+          "key": "D",
+          "text": "20"
+        },
+        {
+          "key": "E",
+          "text": "22"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Pola: 4, 10, 8, 14, 12, 18 \nDari pola tersebut dapat diuraikan menjadi 2 pola, \nyaitu: \nPola I: 4 10 8 14 12 18 x \n \n +4 +4 \nPola II: 4 10 8 14 12 18 x \n \n +4 +4 +4 \nx = 12 + 4 =16",
+      "source": "Simulasi 2 TPA Paragon (Soal #27)"
+    },
+    {
+      "id": "tpa_q_28",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Deret Angka & Aljabar Aritmatika",
+      "question": "S uatu seri angka terdiri dari 10 15 12 17 1 4 19, angka selanjutnya adalah:",
+      "options": [
+        {
+          "key": "A",
+          "text": "15"
+        },
+        {
+          "key": "B",
+          "text": "24"
+        },
+        {
+          "key": "C",
+          "text": "16"
+        },
+        {
+          "key": "D",
+          "text": "21"
+        },
+        {
+          "key": "E",
+          "text": "29"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Pola: 10, 15, 12, 17, 14, 19 \nDari pola tersebut dapat diuraikan menjadi 2 pola, \nyaitu: \nPola I: 10 15 12 17 14 19 x \n \n +2 +2 +2 \nPola II: 10 15 12 17 14 19 x \n \n +2 +2 \nx = 14 + 2 = 16",
+      "source": "Simulasi 2 TPA Paragon (Soal #28)"
+    },
+    {
+      "id": "tpa_q_29",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Deret Angka & Aljabar Aritmatika",
+      "question": "S uatu seri huruf terdiri dari B A C A D A E A F A G A, seri selanjunya adalah:",
+      "options": [
+        {
+          "key": "A",
+          "text": "K A"
+        },
+        {
+          "key": "B",
+          "text": "L A"
+        },
+        {
+          "key": "C",
+          "text": "H A"
+        },
+        {
+          "key": "D",
+          "text": "A H"
+        },
+        {
+          "key": "E",
+          "text": "J A"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Pola: B A C A D A E A F A G A H A \nS etiap huruf alfabet mendapat selingan huruf A. \nJadi, huruf selanjutnya adalah huruf setelah G, \nyaitu H, dan satu huruf selingan A.",
+      "source": "Simulasi 2 TPA Paragon (Soal #29)"
+    },
+    {
+      "id": "tpa_q_30",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Deret Angka & Aljabar Aritmatika",
+      "question": "S uatu seri huruf terdiri dari A B C F E D G H I L K J M , seri selanjutnya adalah :",
+      "options": [
+        {
+          "key": "A",
+          "text": "O M"
+        },
+        {
+          "key": "B",
+          "text": "M O"
+        },
+        {
+          "key": "C",
+          "text": "O N"
+        },
+        {
+          "key": "D",
+          "text": "J O"
+        },
+        {
+          "key": "E",
+          "text": "N O"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Pola: A B C F E D G H I L K J M N O \nDalam pola tersebut terdapat 2 kelompok susunan. \nS usunan yang pertama adalah susunan yang urut: \nABC, GHI, M NO. Dan susunan yang kedua \nmerupakan susunan yang urutannya dibalik: FED, \nJKL.",
+      "source": "Simulasi 2 TPA Paragon (Soal #30)"
+    },
+    {
+      "id": "tpa_q_31",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Deret Angka & Aljabar Aritmatika",
+      "question": "Jika C x F - I = 9, maka C + F + I =...",
+      "options": [
+        {
+          "key": "A",
+          "text": "18"
+        },
+        {
+          "key": "B",
+          "text": "20"
+        },
+        {
+          "key": "C",
+          "text": "10"
+        },
+        {
+          "key": "D",
+          "text": "15"
+        },
+        {
+          "key": "E",
+          "text": "13"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "C x F – I = 9 \n3 x 6 – 9 = 18 – 9 = 9 \nJika huruf C dalam urutan alfabet menempati \nurutan ke-3, huruf F urutan ke-6, dan huruf I \nmenempati urutan ke-9, maka hasil dari C + F + I \nadalah: C + F + I = 3 + 6 + 9 = 18",
+      "source": "Simulasi 2 TPA Paragon (Soal #31)"
+    },
+    {
+      "id": "tpa_q_32",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Deret Angka & Aljabar Aritmatika",
+      "question": "Jika n n 12 + = 7 5 35 , maka n sama dengan ...",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "35"
+        },
+        {
+          "key": "C",
+          "text": "12"
+        },
+        {
+          "key": "D",
+          "text": "6"
+        },
+        {
+          "key": "E",
+          "text": "12"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "n n 12 + = \n7 5 35\n \n5n 7n 12 + = \n35 35 35\n→ 12n 12= . Jadi, n = 1\n35 35",
+      "source": "Simulasi 2 TPA Paragon (Soal #32)"
+    },
+    {
+      "id": "tpa_q_33",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Deret Angka & Aljabar Aritmatika",
+      "question": "Berapakah yang harus dikurangkan dari pen- jumlahan 1 1 dan 2 3 agar diperoleh rata-rata 1 6 ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "1"
+        },
+        {
+          "key": "E",
+          "text": "1"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Dari keterangan yang terdapat pada soal dapat \ndibuat persamaan matematis sebagai berikut: \n1 1 1 - x = \n2 3 6\n1 1 1 3( + ) - x = x \n6 3 6 1\n5 3 5 3 - x = x = - \n6 6 6 6\n2 1x = = \n6 3\n+\n→",
+      "source": "Simulasi 2 TPA Paragon (Soal #33)"
+    },
+    {
+      "id": "tpa_q_34",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Deret Angka & Aljabar Aritmatika",
+      "question": "s tahun yang lalu seseorang berusia r tahun. Berapakah usia orang tersebut t tahun yang mendatang?",
+      "options": [
+        {
+          "key": "A",
+          "text": "r + s + t"
+        },
+        {
+          "key": "B",
+          "text": "rst"
+        },
+        {
+          "key": "C",
+          "text": "rs + t"
+        },
+        {
+          "key": "D",
+          "text": "r - s + t"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "s tahun yang lalu seseorang berusia r tahun. Jika \nkita umpamakan usia orang itu saat ini sebagai x, \nmaka persamaan matematisnya adalah: \nx - s = r x = r + s→ \nJika usia orang itu saat ini adalah r + s, maka usi a \norang tersebut t tahun yang akan datang adalah: \nx = r + s x + t = r + s + t→",
+      "source": "Simulasi 2 TPA Paragon (Soal #34)"
+    },
+    {
+      "id": "tpa_q_35",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Deret Angka & Aljabar Aritmatika",
+      "question": "Jika 7 + 10 = 5, 8 + 5 = 1; dan 4 + 11 = 3; mak a 9 + 7 = …",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "6"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        },
+        {
+          "key": "E",
+          "text": "8"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Jika setiap penjumlahan dikurangi 12, maka: \n(7 + 10) - 12 = 17 - 12 = 5\n(8 + 5) - 12 = 13 - 12 = 1\n(4 + 11) - 12 = 15 - 12 = 3\nJadi, hasil dari 9 + 7 adalah:\n(9 + 7) - 12 = 16 - 12 = 4",
+      "source": "Simulasi 2 TPA Paragon (Soal #35)"
+    },
+    {
+      "id": "tpa_q_36",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Logika Cerita & Pemecahan Masalah",
+      "question": "Bagaimanakah cara yang mungkin ditempuh untuk sampai ke J dari H?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dengan kereta yang ke G dan pindah ke"
+        },
+        {
+          "key": "B",
+          "text": "Dengan kereta yang kereta ke L dan"
+        },
+        {
+          "key": "C",
+          "text": "Dengan kereta yang langsung dari H ke J."
+        },
+        {
+          "key": "D",
+          "text": "Dengan kereta yang ke I dan pindah ke"
+        },
+        {
+          "key": "E",
+          "text": "S emua pilihan jawaban salah"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Dari soal dapat digambarkan rute sebagai beriku t:",
+      "source": "Simulasi 2 TPA Paragon (Soal #36)"
+    },
+    {
+      "id": "tpa_q_37",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Logika Cerita & Pemecahan Masalah",
+      "question": "Dengan hanya sekali pindah kereta, I dapat di- capai dari:",
+      "options": [
+        {
+          "key": "A",
+          "text": "G, H, dan J"
+        },
+        {
+          "key": "B",
+          "text": "G, J, dan K"
+        },
+        {
+          "key": "C",
+          "text": "G"
+        },
+        {
+          "key": "D",
+          "text": "G dan J"
+        },
+        {
+          "key": "E",
+          "text": "J dan H"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Jawaban yang tepat adalah pilihan D.",
+      "source": "Simulasi 2 TPA Paragon (Soal #37)"
+    },
+    {
+      "id": "tpa_q_38",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Logika Cerita & Pemecahan Masalah",
+      "question": "Jumlah maksimal stasiun yang dapat dikun- jungi dengan melewati hanya satu stasiun lain- nya adalah:",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "6"
+        },
+        {
+          "key": "E",
+          "text": "7"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Jumlah maksimal yang dapat dikunjungi dengan \nmelewati hanya satu stasiun adalah 3 stasiun, yaitu \nstasiun awal, stasiun yang disinggahi dan stasiun \nakhir. \n \n \nH \nG \nL \nI \nJ \nK",
+      "source": "Simulasi 2 TPA Paragon (Soal #38)"
+    },
+    {
+      "id": "tpa_q_39",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Logika Cerita & Pemecahan Masalah",
+      "question": "Rute manakah yang memerlukan pindah ke- reta paling banyak?",
+      "options": [
+        {
+          "key": "A",
+          "text": "L ke H"
+        },
+        {
+          "key": "B",
+          "text": "H ke K"
+        },
+        {
+          "key": "C",
+          "text": "L ke I"
+        },
+        {
+          "key": "D",
+          "text": "G ke I"
+        },
+        {
+          "key": "E",
+          "text": "L ke G"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "L ke H rutenya: L → G → H \n H ke K rutenya: H → I → J → K \n L ke I rutenya: L → I \n G ke I rutenya: G → H → I \n Jelas bahwa rute H ke K memerlukan pindah kereta \npaling banyak.",
+      "source": "Simulasi 2 TPA Paragon (Soal #39)"
+    },
+    {
+      "id": "tpa_q_40",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Logika Cerita & Pemecahan Masalah",
+      "question": "J ika stasiun I ditutup, perjalanan manakah yang tidak mungkin?",
+      "options": [
+        {
+          "key": "A",
+          "text": "J ke K"
+        },
+        {
+          "key": "C",
+          "text": "L ke K"
+        },
+        {
+          "key": "C",
+          "text": "G ke J"
+        },
+        {
+          "key": "D",
+          "text": "L ke J"
+        },
+        {
+          "key": "E",
+          "text": "G ke K"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Lihat gambar di atas.",
+      "source": "Simulasi 2 TPA Paragon (Soal #40)"
+    },
+    {
+      "id": "tpa_q_41",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Logika Cerita & Pemecahan Masalah",
+      "question": "Baik Jono, Kusminto maupun Lanang masing- masing dapat turun di …",
+      "options": [
+        {
+          "key": "A",
+          "text": "A, F, E"
+        },
+        {
+          "key": "B",
+          "text": "A, B, D"
+        },
+        {
+          "key": "C",
+          "text": "C, A, E"
+        },
+        {
+          "key": "D",
+          "text": "D, F, E"
+        },
+        {
+          "key": "E",
+          "text": "A, B, E"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "Pilihan B bertentangan dengan pernyataan kedua. \nPilihan C bertentangan dengan pernyataan \npertama. Pilihan D bertentangan dengan \npernyataan kedua.",
+      "source": "Simulasi 2 TPA Paragon (Soal #41)"
+    },
+    {
+      "id": "tpa_q_42",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Logika Cerita & Pemecahan Masalah",
+      "question": "Apabila Jono turun di E, maka Lanang mungkin akan turun di …",
+      "options": [
+        {
+          "key": "A",
+          "text": "B"
+        },
+        {
+          "key": "B",
+          "text": "C"
+        },
+        {
+          "key": "C",
+          "text": "D"
+        },
+        {
+          "key": "D",
+          "text": "F"
+        },
+        {
+          "key": "E",
+          "text": "S emua salah"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Jika Jono turun di R maka Lanang tidak boleh tu run \ndi P, N, L, J, H, F, D, B. Lanang tidak turun di B \nataupun F.",
+      "source": "Simulasi 2 TPA Paragon (Soal #42)"
+    },
+    {
+      "id": "tpa_q_43",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Logika Cerita & Pemecahan Masalah",
+      "question": "Apabila tidak seorangpun yang turun di C atau-p un B, maka pernyataan berikut yang benar:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Jono turun di F"
+        },
+        {
+          "key": "B",
+          "text": "Kusminto turun di A"
+        },
+        {
+          "key": "C",
+          "text": "Kusminto turun di B"
+        },
+        {
+          "key": "D",
+          "text": "Lanang turun di D"
+        },
+        {
+          "key": "E",
+          "text": "Tidak ada pernyataan yang benar"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Pilihan A dan D bertentangan dengan pernyataan \nkelima. Pilihan B bertentangan dengan pernyataan \npertama.",
+      "source": "Simulasi 2 TPA Paragon (Soal #43)"
+    },
+    {
+      "id": "tpa_q_44",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Logika Cerita & Pemecahan Masalah",
+      "question": "Berapa banyak gerai yang dibuka pada suatu hari ketika sesuai dengan jadwal hanya Adi, Betty dan Charles yang bisa membuka gerai?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Empat"
+        },
+        {
+          "key": "B",
+          "text": "S atu"
+        },
+        {
+          "key": "C",
+          "text": "Dua"
+        },
+        {
+          "key": "D",
+          "text": "Tiga"
+        },
+        {
+          "key": "E",
+          "text": "Lima"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Jika dijadwalkan Adi, Betty dan Charles yang bi sa \nmembuka gerai maka: \n- Dana dan Edi tidak akan membuka gerai. \n- Gerai Betty tidak mempengaruhi yang lain. \nJadi, gerai yang buka pada hari itu hanya gerai Adi , \nBetty dan Charles (tiga gerai).",
+      "source": "Simulasi 2 TPA Paragon (Soal #44)"
+    },
+    {
+      "id": "tpa_q_45",
+      "segment_id": "tpa_simulasi",
+      "subsegment": "Logika Cerita & Pemecahan Masalah",
+      "question": "Jika seorang pembeli ingin memastikan bahwa pada suatu hari Betty dan Charles sama-sama membuka gerai mereka, manakah yang berikut yang juga harus membuka gerai?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adi dan Dana"
+        },
+        {
+          "key": "B",
+          "text": "Dana dan Edi"
+        },
+        {
+          "key": "C",
+          "text": "Adi"
+        },
+        {
+          "key": "D",
+          "text": "Edi"
+        },
+        {
+          "key": "E",
+          "text": "Dana"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Jika Charles membuka gerai maka Edi tidak \nmembuka gerai (opsi B dan D pasti salah), \nJika Adi ikut membuka gerai maka dana tidak akan \nmembuka gerai, sementara diketahui bahwa Adi \nakan selalu membuka gerainya (artinya dana tidak \nmungkin membuka gerai). \nJadi, jika Betty dan Charles sama-sama harus \nmembuka gerai, maka adi juga membuka gerai.",
+      "source": "Simulasi 2 TPA Paragon (Soal #45)"
+    },
+    {
+      "id": "paragon_val_1",
+      "segment_id": "kepribadian",
+      "subsegment": "Core Values Paragon",
+      "question": "Salah satu Core Values utama PT Paragon Technology and Innovation adalah 'Keteladanan'. Dalam konteks kerja tim di Paragon, sikap apa yang paling mencerminkan nilai ini?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Memberikan instruksi detail kepada rekan kerja tanpa perlu terlibat dalam pelaksanaannya."
+        },
+        {
+          "key": "B",
+          "text": "Menunjukkan integritas, dedikasi, dan disiplin nyata sebelum mengajak orang lain melakukannya."
+        },
+        {
+          "key": "C",
+          "text": "Selalu menuntut kesempurnaan mutlak dari seluruh anggota kelompok tanpa toleransi."
+        },
+        {
+          "key": "D",
+          "text": "Mengambil alih seluruh pekerjaan agar tim terlihat berprestasi di mata pimpinan."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Keteladanan di Paragon bermakna 'walk the talk' — memimpin dengan tindakan nyata, integritas, kejujuran, dan menjadi teladan bagi lingkungan sekitar sebelum menuntut orang lain.",
+      "source": "Paragon Scholarship & Corporate Culture"
+    },
+    {
+      "id": "paragon_val_2",
+      "segment_id": "kepribadian",
+      "subsegment": "Core Values Paragon",
+      "question": "Ketika Anda menghadapi kegagalan target proyek dalam program Paragon Scholarship, tindakan mana yang paling mencerminkan nilai 'Ketangguhan (Grit)'?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mencari kambing hitam dan alasan eksternal mengapa situasi tersebut di luar kendali."
+        },
+        {
+          "key": "B",
+          "text": "Segera beralih ke proyek lain yang lebih mudah demi menjaga reputasi keberhasilan."
+        },
+        {
+          "key": "C",
+          "text": "Melakukan evaluasi menyeluruh terhadap akar masalah, bangkit dengan strategi perbaikan terukur, dan gigih berusaha hingga tuntas."
+        },
+        {
+          "key": "D",
+          "text": "Menunggu instruksi eksplisit dari mentor tanpa berani mengambil inisiatif pembenahan."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Ketangguhan (Grit) adalah kemampuan untuk pantang menyerah, tekun, dan belajar dari setiap tantangan maupun kegagalan demi mencapai tujuan jangka panjang.",
+      "source": "Paragon Scholarship & Corporate Culture"
+    },
+    {
+      "id": "paragon_val_3",
+      "segment_id": "kepribadian",
+      "subsegment": "Core Values Paragon",
+      "question": "Nilai 'Kerendahan Hati' (Humility) di Paragon Technology and Innovation paling tepat diwujudkan melalui:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Terbuka menerima kritik dan masukan konstruktif, serta senantiasa siap belajar dari siapa pun tanpa memandang jabatan."
+        },
+        {
+          "key": "B",
+          "text": "Menyembunyikan kemampuan diri sendiri agar tidak terlihat lebih menonjol dari rekan kerja."
+        },
+        {
+          "key": "C",
+          "text": "Menyetujui semua pendapat anggota tim meskipun menyadari adanya kesalahan fatal."
+        },
+        {
+          "key": "D",
+          "text": "Menolak pengakuan prestasi karena merasa diri tidak layak berkontribusi."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Kerendahan Hati bukanlah merendahkan diri secara pasif, melainkan keterbukaan pikiran (open-mindedness) untuk mendengarkan, belajar terus-menerus, dan menghargai peran orang lain.",
+      "source": "Paragon Scholarship & Corporate Culture"
+    },
+    {
+      "id": "paragon_val_4",
+      "segment_id": "kepribadian",
+      "subsegment": "Core Values Paragon",
+      "question": "Dalam pilar nilai 'Ketuhanan (Faith in God)', bagaimana Paragon memandang keberhasilan bisnis dan pencapaian beasiswa?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sebagai semata-mata hasil kerja keras individual tanpa kaitannya dengan aspek spiritual."
+        },
+        {
+          "key": "B",
+          "text": "Sebagai amanah dan sarana untuk menebar kebermanfaatan seluas-luasnya bagi masyarakat dan bangsa."
+        },
+        {
+          "key": "C",
+          "text": "Sebagai bukti dominasi pasar dan keunggulan atas kompetitor lain semata."
+        },
+        {
+          "key": "D",
+          "text": "Sebagai privilese pribadi yang tidak perlu dipertanggungjawabkan kepada publik."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pondasi Ketuhanan Paragon meletakkan pekerjaan dan studi sebagai ibadah dan amanah, di mana buah dari kesuksesan harus berujung pada kebermanfaatan nyata bagi sesama (Rahmatan lil 'Alamin).",
+      "source": "Paragon Scholarship & Corporate Culture"
+    },
+    {
+      "id": "paragon_val_5",
+      "segment_id": "kepribadian",
+      "subsegment": "Core Values Paragon",
+      "question": "Penerima Paragon Scholarship dituntut memiliki jiwa kepemimpinan 'Lead by Serving'. Apa esensi dari kepemimpinan melayani tersebut?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Memastikan semua anggota tim melayani visi sang pemimpin tanpa bantahan."
+        },
+        {
+          "key": "B",
+          "text": "Menomorsatukan kebutuhan anggota tim dan masyarakat penerima manfaat, memfasilitasi pertumbuhan mereka menuju potensi maksimal."
+        },
+        {
+          "key": "C",
+          "text": "Mengorbankan visi strategis demi menyenangkan perasaan semua pihak."
+        },
+        {
+          "key": "D",
+          "text": "Menyerahkan seluruh keputusan krusial kepada suara terbanyak tanpa arahan."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Servant Leadership (kepemimpinan melayani) mengutamakan pemberdayaan anggota tim dan kebermanfaatan bagi masyarakat di atas ego pribadi.",
+      "source": "Paragon Scholarship Leadership Guidelines"
+    },
+    {
+      "id": "custom_428902",
+      "segment_id": "verbal",
+      "subsegment": "Sinonim Uji Coba",
+      "question": "Sinonim dari kata KOLABORATIF adalah...",
+      "options": [
+        {
+          "key": "A",
+          "text": "Individualis"
+        },
+        {
+          "key": "B",
+          "text": "Bekerja bersama"
+        },
+        {
+          "key": "C",
+          "text": "Menolak bantuan"
+        },
+        {
+          "key": "D",
+          "text": "Menyendiri"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Kolaboratif berasal dari kata kolaborasi yang berarti bekerja sama secara aktif.",
+      "source": "Pengujian Otomatis"
+    }
+  ]
+}

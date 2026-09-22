@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paragon Scholarship Quiz • Platform Belajar & Bank Soal Psikotes</title>
+  <meta name="description" content="Platform belajar interaktif dan bank soal seleksi Paragon Scholarship & Management Trainee (MT) dengan pembahasan lengkap, per segmen, dan simulasi TPA.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Password Gate (Lock Screen - Access Code: persebayaselamanya) -->
+  <div class="password-gate-overlay" id="password-gate">
+    <div class="password-gate-card" id="gate-card">
+      <div class="gate-icon-wrapper">
+        <div class="gate-icon-glow"></div>
+        <div class="gate-icon">🔐</div>
+      </div>
+      <div class="gate-badge">Akses Terproteksi</div>
+      <h2 class="gate-title">Portal Belajar Paragon</h2>
+      <p class="gate-subtitle">Masukkan kode akses untuk membuka platform kuis & bank soal psikotes.</p>
+
+      <form id="password-gate-form" class="gate-form" onsubmit="handleUnlockSubmit(event)">
+        <div class="gate-input-group">
+          <input 
+            type="password" 
+            id="gate-password-input" 
+            class="gate-input" 
+            placeholder="Ketik kode sandi..." 
+            autocomplete="current-password"
+            required
+            autofocus
+          />
+          <button type="button" class="gate-toggle-visibility" id="gate-toggle-pwd" title="Tampilkan/Sembunyikan sandi">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" id="gate-eye-icon"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+          </button>
+        </div>
+
+        <div class="gate-msg" id="gate-msg"></div>
+
+        <button type="submit" class="gate-submit-btn" id="gate-submit-btn">
+          <span>Buka Akses Portal</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </button>
+      </form>
+      <div class="gate-footer">
+        <span>🐊 Persebaya Selamanya • Paragon Scholarship Prep</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top App Navigation (Desktop & Mobile Shell) -->
+  <header class="app-nav">
+    <div class="nav-container">
+      <div class="brand" id="btn-brand-home">
+        <div class="brand-logo">P</div>
+        <div class="brand-text">
+          <span class="brand-title">Paragon Quiz</span>
+          <span class="brand-subtitle">Scholarship & MT Prep</span>
+        </div>
+      </div>
+      <div class="nav-actions">
+        <button class="nav-btn" id="btn-open-bank" title="Cari di Bank Soal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <span class="nav-btn-label">Bank Soal</span>
+        </button>
+        <button class="nav-btn" id="btn-open-add-q" title="Tambah Soal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          <span class="nav-btn-label">Tambah Soal</span>
+        </button>
+        <button class="nav-btn icon-only" id="btn-toggle-sound" title="Toggle Suara">
+          <span id="sound-icon">🔊</span>
+        </button>
+        <button class="nav-btn lock-btn" id="btn-lock-app" title="Kunci Akses">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+          <span class="nav-btn-label">Kunci</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-wrapper">
+
+    <!-- VIEW 1: SEGMENT SELECTION DASHBOARD -->
+    <section class="view active" id="view-dashboard">
+      <!-- Hero Banner -->
+      <div class="hero-banner">
+        <div class="hero-badge">🎓 Paragon Scholarship Program 2026/2027</div>
+        <h1 class="hero-title">Pilih Segmen Soal & Uji Kemampuanmu</h1>
+        <p class="hero-desc">
+          Latihan soal psikotes terstruktur berdasarkan kisi-kisi resmi MT Paragon dan arsip simulasi TPA. Pilih segmen di bawah untuk memulai!
+        </p>
+
+        <!-- Quick Stats Strip -->
+        <div class="stats-strip">
+          <div class="stat-pill">
+            <span class="stat-num" id="stat-total-q">215</span>
+            <span class="stat-lbl">Total Soal</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-num" id="stat-quizzes-done">0</span>
+            <span class="stat-lbl">Kuis Selesai</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-num" id="stat-avg-acc">0%</span>
+            <span class="stat-lbl">Rata-rata Skor</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Segments Section Header -->
+      <div class="section-head">
+        <h2 class="section-title">Kategori Segmen Ujian</h2>
+        <span class="section-badge" id="segment-count-badge">6 Segmen Tersedia</span>
+      </div>
+
+      <!-- Segments Grid -->
+      <div class="segments-grid" id="segments-container">
+        <!-- Segments rendered dynamically by app.js -->
+        <div class="loading-state">
+          <div class="spinner"></div>
+          <p>Memuat database segmen Paragon...</p>
+        </div>
+      </div>
+
+      <!-- Quick Mix Button -->
+      <div class="quick-mix-card" id="btn-quick-mix">
+        <div class="mix-icon">⚡</div>
+        <div class="mix-info">
+          <h3>Latihan Cepat Campuran (Random Mix)</h3>
+          <p>Uji kesiapan menyeluruh dengan 10 soal acak dari seluruh segmen ujian Paragon.</p>
+        </div>
+        <button class="mix-btn">Mulai Cepat ➔</button>
+      </div>
+
+      <!-- Recent History Preview -->
+      <div class="recent-history-section" id="recent-history-wrapper" style="display:none;">
+        <h3 class="history-title">Riwayat Percobaan Terbaru</h3>
+        <div class="history-list" id="history-list"></div>
+      </div>
+    </section>
+
+    <!-- VIEW 2: QUIZ INTERFACE (MATCHES USER MOCKUP PRECISELY) -->
+    <section class="view" id="view-quiz">
+      <div class="mobile-device-card">
+        
+        <!-- Screen Top Bar -->
+        <div class="quiz-top-bar">
+          <button class="icon-btn" id="btn-quiz-close" title="Keluar dari kuis">✕</button>
+          <div class="quiz-top-actions">
+            <button class="icon-btn" id="btn-quiz-share" title="Bagikan">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+            </button>
+            <button class="icon-btn" id="btn-quiz-more" title="Opsi kuis">⋮</button>
+          </div>
+        </div>
+
+        <!-- Quiz Heading & Breadcrumbs -->
+        <div class="quiz-header-block">
+          <h2 class="quiz-title" id="quiz-subsegment-title">Sinonim (Persamaan Kata)</h2>
+          <div class="quiz-subtitle" id="quiz-breadcrumb">Fundamentals • Paragon Scholarship • 10 Soal</div>
+        </div>
+
+        <!-- Progress Bar Row -->
+        <div class="progress-row">
+          <span class="progress-label" id="progress-text">1/10</span>
+          <div class="progress-track">
+            <div class="progress-fill" id="progress-fill" style="width: 10%;"></div>
+          </div>
+          <span class="progress-target" title="Target Lolos">🎯</span>
+        </div>
+
+        <!-- Question Meta Row (Quiz Label, Speaker Audio, Timer Countdown) -->
+        <div class="question-meta-row">
+          <div class="quiz-tag">Quiz</div>
+          <div class="meta-right-group">
+            <button class="audio-btn" id="btn-speak-question" title="Dengarkan soal dibacakan">
+              🔊
+            </button>
+            <div class="timer-badge" id="timer-display">
+              <span class="timer-icon">⏳</span>
+              <span id="timer-text">00:15 Sec</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question Statement -->
+        <div class="question-box">
+          <p class="question-text" id="question-text">
+            Memuat soal...
+          </p>
+          <div class="source-tag" id="question-source"></div>
+        </div>
+
+        <!-- Options Container -->
+        <div class="options-list" id="options-container">
+          <!-- Options cards injected dynamically -->
+        </div>
+
+        <!-- Fixed/Sticky Bottom Action Bar -->
+        <div class="quiz-bottom-bar">
+          <button class="check-btn disabled" id="btn-check-answer" disabled>Check</button>
+        </div>
+
+        <!-- BOTTOM SHEET MODAL (SLIDES UP ON CHECK - EXACTLY MATCHES REFERENCE) -->
+        <div class="bottom-sheet-backdrop" id="sheet-backdrop"></div>
+        <div class="bottom-sheet" id="bottom-sheet">
+          <div class="sheet-drag-handle"></div>
+          
+          <div class="sheet-content">
+            <!-- Header status: Correct or Incorrect -->
+            <div class="sheet-status-header" id="sheet-status-header">
+              <h3 class="sheet-title" id="sheet-title">Correct Answer</h3>
+              <div class="sheet-icon-badge" id="sheet-icon-badge">
+                <span id="sheet-icon">✔</span>
+              </div>
+              <p class="sheet-cheer" id="sheet-cheer">Wow! That is absolutely correct.</p>
+            </div>
+
+            <!-- Explanation Box (Pembahasan) -->
+            <div class="explanation-box" id="explanation-box">
+              <div class="explanation-head">
+                <span class="expl-icon">💡</span>
+                <strong>Pembahasan Soal:</strong>
+              </div>
+              <p class="explanation-text" id="explanation-text">
+                Adaptif = mampu menyesuaikan diri dengan situasi baru.
+              </p>
+            </div>
+
+            <!-- Action Button: Next -->
+            <div class="sheet-action">
+              <button class="sheet-next-btn" id="btn-sheet-next">Next</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- VIEW 3: QUIZ RESULT SUMMARY -->
+    <section class="view" id="view-result">
+      <div class="result-card">
+        <div class="result-badge-icon" id="result-icon">🏆</div>
+        <h2 class="result-title" id="result-title">Kuis Selesai!</h2>
+        <p class="result-subtitle" id="result-evaluation">Evaluasi performa Anda dalam segmen ini.</p>
+
+        <!-- Big Score Display -->
+        <div class="score-circle-wrapper">
+          <div class="score-number">
+            <span id="result-score-num">8</span><span class="score-denom" id="result-total-denom">/10</span>
+          </div>
+          <div class="score-label" id="result-accuracy-label">Akurasi: 80%</div>
+        </div>
+
+        <!-- Stats Grid -->
+        <div class="result-stats-grid">
+          <div class="res-stat-item">
+            <span class="res-stat-val text-success" id="res-correct-count">8</span>
+            <span class="res-stat-lbl">Benar</span>
+          </div>
+          <div class="res-stat-item">
+            <span class="res-stat-val text-danger" id="res-wrong-count">2</span>
+            <span class="res-stat-lbl">Salah</span>
+          </div>
+          <div class="res-stat-item">
+            <span class="res-stat-val" id="res-time-spent">01:45</span>
+            <span class="res-stat-lbl">Waktu</span>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="result-actions">
+          <button class="primary-action-btn" id="btn-retry-segment">Ulangi Kuis Ini</button>
+          <button class="secondary-action-btn" id="btn-back-dashboard">Pilih Segmen Lain</button>
+          <button class="review-toggle-btn" id="btn-toggle-review">Review Semua Jawaban & Pembahasan ▼</button>
+        </div>
+
+        <!-- Review Question List (Collapsible) -->
+        <div class="review-section" id="review-section" style="display:none;">
+          <h3 class="review-title">Rincian Jawaban & Pembahasan</h3>
+          <div class="review-items-container" id="review-items-container"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 4: BANK SOAL & SEARCH -->
+    <section class="view" id="view-bank">
+      <div class="bank-container">
+        <div class="bank-header">
+          <button class="back-link-btn" id="btn-bank-back">← Kembali ke Dashboard</button>
+          <h2>Bank Soal Paragon Scholarship & MT</h2>
+          <p>Jelajahi dan cari pembahasan 200+ soal psikotes asli dari database.</p>
+        </div>
+
+        <div class="bank-filter-bar">
+          <div class="search-input-wrap">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text" id="bank-search-input" placeholder="Cari kata kunci soal, pembahasan, atau topik...">
+          </div>
+          <select id="bank-segment-select">
+            <option value="all">Semua Segmen</option>
+            <option value="verbal">Tes Verbal</option>
+            <option value="numerik">Tes Numerik & Deret</option>
+            <option value="logika">Tes Logika & Silogisme</option>
+            <option value="urutan">Tes Urutan Angka & Huruf</option>
+            <option value="tpa_simulasi">Simulasi TPA Paragon</option>
+            <option value="kepribadian">Tes Nilai & Budaya Paragon</option>
+          </select>
+        </div>
+
+        <div class="bank-results-count" id="bank-results-count">Menampilkan 20 soal</div>
+        <div class="bank-list" id="bank-list-container">
+          <div class="spinner"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MODAL 1: SEGMENT CONFIG MODAL (BEFORE STARTING QUIZ) -->
+  <div class="modal-overlay" id="modal-segment-config">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-seg-icon" id="modal-seg-icon">📝</div>
+        <div>
+          <h3 class="modal-title" id="modal-seg-title">Tes Verbal</h3>
+          <p class="modal-sub" id="modal-seg-desc">Konfigurasi sesi latihan Anda</p>
+        </div>
+        <button class="modal-close-btn" id="btn-close-config-modal">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Subsegment filter -->
+        <div class="form-group" id="subsegment-filter-group">
+          <label class="form-label">Pilih Subtopik / Subtes:</label>
+          <select class="form-select" id="config-subsegment">
+            <option value="">Semua Subtopik (Lengkap)</option>
+          </select>
+        </div>
+
+        <!-- Number of Questions -->
+        <div class="form-group">
+          <label class="form-label">Jumlah Soal:</label>
+          <div class="pill-options" id="config-limit-pills">
+            <button class="pill-btn" data-val="5">5 Soal</button>
+            <button class="pill-btn active" data-val="10">10 Soal</button>
+            <button class="pill-btn" data-val="20">20 Soal</button>
+            <button class="pill-btn" data-val="50">Semua</button>
+          </div>
+        </div>
+
+        <!-- Timer Setting -->
+        <div class="form-group">
+          <label class="form-label">Batas Waktu Per Soal:</label>
+          <div class="pill-options" id="config-timer-pills">
+            <button class="pill-btn" data-val="15">15 Detik</button>
+            <button class="pill-btn active" data-val="30">30 Detik</button>
+            <button class="pill-btn" data-val="60">60 Detik</button>
+            <button class="pill-btn" data-val="0">Tanpa Timer</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="start-quiz-btn" id="btn-start-configured-quiz">Mulai Kuis Sekarang ➔</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 2: ADD QUESTION MODAL (CRUD FEATURE) -->
+  <div class="modal-overlay" id="modal-add-question">
+    <div class="modal-card modal-wide">
+      <div class="modal-header">
+        <div>
+          <h3 class="modal-title">Tambah Soal Baru ke Database</h3>
+          <p class="modal-sub">Masukkan soal psikotes baru ke bank data Paragon</p>
+        </div>
+        <button class="modal-close-btn" id="btn-close-add-modal">✕</button>
+      </div>
+
+      <form id="form-add-question" class="modal-body">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Segmen:</label>
+            <select class="form-select" id="new-q-segment" required>
+              <option value="verbal">Tes Verbal</option>
+              <option value="numerik">Tes Numerik & Deret</option>
+              <option value="logika">Tes Logika & Silogisme</option>
+              <option value="urutan">Tes Urutan Angka & Huruf</option>
+              <option value="tpa_simulasi">Simulasi TPA Paragon</option>
+              <option value="kepribadian">Tes Nilai & Budaya Paragon</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Subtopik:</label>
+            <input type="text" class="form-input" id="new-q-subsegment" placeholder="Misal: Sinonim, Deret Angka..." required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Pertanyaan / Soal:</label>
+          <textarea class="form-textarea" id="new-q-question" rows="3" placeholder="Tuliskan butir pertanyaan..." required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Pilihan Jawaban (Minimal 2 Opsi):</label>
+          <div class="options-inputs">
+            <div class="opt-input-row">
+              <span class="opt-key-badge">A</span>
+              <input type="text" class="form-input" id="opt-text-A" placeholder="Pilihan A" required>
+            </div>
+            <div class="opt-input-row">
+              <span class="opt-key-badge">B</span>
+              <input type="text" class="form-input" id="opt-text-B" placeholder="Pilihan B" required>
+            </div>
+            <div class="opt-input-row">
+              <span class="opt-key-badge">C</span>
+              <input type="text" class="form-input" id="opt-text-C" placeholder="Pilihan C">
+            </div>
+            <div class="opt-input-row">
+              <span class="opt-key-badge">D</span>
+              <input type="text" class="form-input" id="opt-text-D" placeholder="Pilihan D">
+            </div>
+            <div class="opt-input-row">
+              <span class="opt-key-badge">E</span>
+              <input type="text" class="form-input" id="opt-text-E" placeholder="Pilihan E (Opsional)">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Kunci Jawaban Benar:</label>
+            <select class="form-select" id="new-q-correct" required>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+              <option value="E">E</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Sumber Soal:</label>
+            <input type="text" class="form-input" id="new-q-source" value="User Custom Soal" placeholder="Sumber">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Pembahasan Lengkap:</label>
+          <textarea class="form-textarea" id="new-q-explanation" rows="3" placeholder="Jelaskan alasan dan cara penyelesaian soal..." required></textarea>
+        </div>
+
+        <div class="modal-footer">
+          <button type="submit" class="start-quiz-btn" id="btn-save-new-q">Simpan Soal ke Database</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- App Logic -->
+  <script src="app.js"></script>
+</body>
+</html>

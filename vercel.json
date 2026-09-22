@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/data/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    { "source": "/static/(.*)", "destination": "/$1" },
+    { "source": "/api/segments", "destination": "/data/quiz_data.json" }
+  ]
+}

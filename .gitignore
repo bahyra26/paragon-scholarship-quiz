@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.vercel/
+.env
+*.log
+*.pdf
+*.pdf.txt
+kisi_kisi_layout.txt
