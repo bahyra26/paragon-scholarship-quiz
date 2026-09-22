@@ -514,7 +514,7 @@ async function startQuiz(segmentId, subsegment = '', limit = 10, timerSec = 30) 
     // Setup Header Breadcrumb
     const segObj = state.segments.find(s => s.id === segmentId);
     const segTitle = segObj ? segObj.name : 'Simulasi Paragon';
-    const subTitle = subsegment || (data && data.questions && data.questions[0] ? data.questions[0].subsegment : (questions[0] ? questions[0].subsegment : 'Umum'));
+    const subTitle = subsegment || (questions[0] && questions[0].subsegment ? questions[0].subsegment : 'Umum');
 
     document.getElementById('quiz-subsegment-title').textContent = subTitle;
     document.getElementById('quiz-breadcrumb').textContent = `${segTitle} • Paragon Scholarship • ${state.quizQuestions.length} Soal`;
