@@ -66,7 +66,7 @@ function handleUnlockSubmit(event) {
     if (card) card.classList.add('success-card');
     if (msg) {
       msg.className = 'gate-msg success';
-      msg.textContent = '✅ Akses Diterima! Selamat belajar 🐊🟢';
+      msg.textContent = '✅ Akses Diterima! Selamat belajar 🎓✨';
     }
     localStorage.setItem('paragon_passcode_auth', ACCESS_PASSCODE);
     setTimeout(() => {
