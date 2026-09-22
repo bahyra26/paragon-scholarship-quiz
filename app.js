@@ -34,46 +34,149 @@ const state = {
 };
 
 // ==========================================================================
-// 0. PASSWORD GATE SECURITY ("persebayaselamanya")
+// 0. SECURE CRYPTOGRAPHIC ENGINE (AES-256-GCM + PBKDF2)
+// Data is cryptographically encrypted. Zero plaintext passwords in code.
 // ==========================================================================
-const ACCESS_PASSCODE = 'persebayaselamanya';
 
-function checkGateAuth() {
+let encryptedPayloadCache = null;
+
+async function fetchEncryptedPayload() {
+  if (encryptedPayloadCache) return encryptedPayloadCache;
+  const paths = [
+    'data/quiz_data.enc',
+    '/data/quiz_data.enc',
+    '/static/data/quiz_data.enc',
+    'public/data/quiz_data.enc'
+  ];
+  for (const p of paths) {
+    try {
+      const res = await fetch(p);
+      if (res.ok) {
+        encryptedPayloadCache = await res.json();
+        return encryptedPayloadCache;
+      }
+    } catch (e) {}
+  }
+  return null;
+}
+
+function base64ToBytes(b64) {
+  const binaryString = window.atob(b64);
+  const len = binaryString.length;
+  const bytes = new Uint8Array(len);
+  for (let i = 0; i < len; i++) {
+    bytes[i] = binaryString.charCodeAt(i);
+  }
+  return bytes;
+}
+
+async function decryptPayloadWithPassword(password) {
+  const payload = await fetchEncryptedPayload();
+  if (!payload || !payload.data) {
+    throw new Error('Gagal mengunduh berkas data terenkripsi.');
+  }
+
+  const saltBytes = base64ToBytes(payload.salt);
+  const ivBytes = base64ToBytes(payload.iv);
+  const dataBytes = base64ToBytes(payload.data);
+
+  const enc = new TextEncoder();
+  const keyMaterial = await window.crypto.subtle.importKey(
+    'raw',
+    enc.encode(password),
+    { name: 'PBKDF2' },
+    false,
+    ['deriveKey']
+  );
+
+  const aesKey = await window.crypto.subtle.deriveKey(
+    {
+      name: 'PBKDF2',
+      salt: saltBytes,
+      iterations: 100000,
+      hash: 'SHA-256'
+    },
+    keyMaterial,
+    { name: 'AES-GCM', length: 256 },
+    false,
+    ['decrypt']
+  );
+
+  // Decrypt (AES-GCM automatically verifies authentication tag.
+  // Throws error if password does not match!)
+  const decryptedBuffer = await window.crypto.subtle.decrypt(
+    { name: 'AES-GCM', iv: ivBytes },
+    aesKey,
+    dataBytes
+  );
+
+  const jsonStr = new TextDecoder('utf-8').decode(decryptedBuffer);
+  return JSON.parse(jsonStr);
+}
+
+async function checkGateAuth() {
   const gate = document.getElementById('password-gate');
   const input = document.getElementById('gate-password-input');
-  const stored = localStorage.getItem('paragon_passcode_auth');
+  const savedKey = sessionStorage.getItem('paragon_session_key');
 
-  if (stored === ACCESS_PASSCODE) {
-    if (gate) gate.classList.add('unlocked');
-  } else {
-    if (gate) {
-      gate.classList.remove('unlocked');
-      if (input) setTimeout(() => input.focus(), 250);
+  if (savedKey) {
+    try {
+      const data = await decryptPayloadWithPassword(savedKey);
+      state.allQuestionsData = data;
+      state.segments = data.segments || [];
+      if (gate) gate.classList.add('unlocked');
+      loadSegmentsAndStats();
+      return;
+    } catch (e) {
+      sessionStorage.removeItem('paragon_session_key');
     }
+  }
+
+  if (gate) {
+    gate.classList.remove('unlocked');
+    if (input) setTimeout(() => input.focus(), 250);
   }
 }
 
-function handleUnlockSubmit(event) {
+async function handleUnlockSubmit(event) {
   if (event) event.preventDefault();
   const input = document.getElementById('gate-password-input');
   const msg = document.getElementById('gate-msg');
   const card = document.getElementById('gate-card');
   const gate = document.getElementById('password-gate');
-  const val = (input ? input.value : '').trim().toLowerCase();
+  const submitBtn = document.getElementById('gate-submit-btn');
+  const val = (input ? input.value : '').trim();
 
-  if (val === ACCESS_PASSCODE) {
+  if (!val) return;
+
+  if (msg) {
+    msg.className = 'gate-msg';
+    msg.textContent = 'Memverifikasi kode & mendekripsi...';
+  }
+  if (submitBtn) submitBtn.disabled = true;
+
+  try {
+    const data = await decryptPayloadWithPassword(val);
+    state.allQuestionsData = data;
+    state.segments = data.segments || [];
+
     playCorrectTone();
     if (card) card.classList.add('success-card');
     if (msg) {
       msg.className = 'gate-msg success';
-      msg.textContent = '✅ Akses Diterima! Selamat belajar 🎓✨';
+      msg.textContent = '✅ Akses Diterima! Dekripsi berhasil 🎓✨';
     }
-    localStorage.setItem('paragon_passcode_auth', ACCESS_PASSCODE);
+
+    sessionStorage.setItem('paragon_session_key', val);
+
     setTimeout(() => {
       if (gate) gate.classList.add('unlocked');
+      if (submitBtn) submitBtn.disabled = false;
+      loadSegmentsAndStats();
       showToast('Selamat datang di Portal Kuis Paragon! 🎓');
     }, 450);
-  } else {
+  } catch (err) {
+    if (submitBtn) submitBtn.disabled = false;
     playWrongTone();
     if (card) {
       card.classList.remove('shake-card');
@@ -82,7 +185,7 @@ function handleUnlockSubmit(event) {
     }
     if (msg) {
       msg.className = 'gate-msg error';
-      msg.textContent = '⚠️ Kode sandi salah! Periksa kembali.';
+      msg.textContent = '⚠️ Kode sandi salah atau data terkunci!';
     }
     if (input) {
       input.select();
@@ -92,7 +195,8 @@ function handleUnlockSubmit(event) {
 }
 
 function lockApp() {
-  localStorage.removeItem('paragon_passcode_auth');
+  sessionStorage.removeItem('paragon_session_key');
+  state.allQuestionsData = null;
   const gate = document.getElementById('password-gate');
   const input = document.getElementById('gate-password-input');
   const msg = document.getElementById('gate-msg');
@@ -106,7 +210,8 @@ function lockApp() {
     msg.textContent = '';
   }
   if (gate) gate.classList.remove('unlocked');
-  showToast('Aplikasi telah dikunci 🔒');
+  switchView('dashboard');
+  showToast('Aplikasi telah dikunci rapat 🔒');
   if (input) setTimeout(() => input.focus(), 250);
 }
 
@@ -131,22 +236,14 @@ window.handleUnlockSubmit = handleUnlockSubmit;
 window.lockApp = lockApp;
 window.togglePasswordVisibility = togglePasswordVisibility;
 
-// Helper to fetch static data fallback (for Vercel & Offline)
 async function getStaticQuizData() {
   if (state.allQuestionsData) return state.allQuestionsData;
-  const paths = [
-    'data/quiz_data.json',
-    '/data/quiz_data.json',
-    '/static/data/quiz_data.json',
-    'public/data/quiz_data.json'
-  ];
-  for (const p of paths) {
+  const savedKey = sessionStorage.getItem('paragon_session_key');
+  if (savedKey) {
     try {
-      const res = await fetch(p);
-      if (res.ok) {
-        state.allQuestionsData = await res.json();
-        return state.allQuestionsData;
-      }
+      const data = await decryptPayloadWithPassword(savedKey);
+      state.allQuestionsData = data;
+      return state.allQuestionsData;
     } catch (e) {}
   }
   return null;

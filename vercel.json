@@ -22,7 +22,6 @@
     }
   ],
   "rewrites": [
-    { "source": "/static/(.*)", "destination": "/$1" },
-    { "source": "/api/segments", "destination": "/data/quiz_data.json" }
+    { "source": "/static/(.*)", "destination": "/$1" }
   ]
 }
